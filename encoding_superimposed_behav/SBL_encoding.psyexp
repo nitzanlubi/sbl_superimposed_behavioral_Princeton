@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2025.2.4">
+<PsychoPy2experiment encoding="utf-8" version="2026.1.3">
   <Settings>
     <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
     <Param val="https://run.pavlovia.org/nitzanlubi/arithmetic_task_exp" valType="str" updates="None" name="Completed URL"/>
@@ -301,7 +301,7 @@
         <Param val="None" valType="str" updates="constant" name="flip"/>
         <Param val="Open Sans" valType="str" updates="constant" name="font"/>
         <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
-        <Param val="0.045" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
         <Param val="text_instructions" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
@@ -400,7 +400,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(1920, 1080)" valType="list" updates="constant" name="size"/>
+        <Param val="(1.78, 1.0)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -408,7 +408,7 @@
         <Param val="2" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="128" valType="num" updates="constant" name="texture resolution"/>
-        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
       <ImageComponent name="image_item" plugin="None">
@@ -440,6 +440,23 @@
         <Param val="pix" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if trials.thisN &gt;= 10:&amp;#10;    trials.finished = True" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="True" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
     </Routine>
     <Routine name="blank2000">
       <RoutineSettingsComponent name="blank2000" plugin="None">
@@ -506,7 +523,7 @@
       <CodeComponent name="code_get_keys" plugin="None">
         <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
         <Param val="var key_related&amp;#10;var key_unrelated&amp;#10;var instruction_text" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
-        <Param val="# allocate participant to relatedness response key accprding&amp;#10;# to counterbalanced_vars.xlsx&amp;#10;import pandas as pd&amp;#10;df = pd.read_csv('counterbalanced_vars_behav.csv') # match to relevant experiment var table&amp;#10;subnum = int(expInfo['participant'])&amp;#10;ind = df[df['Participant'] == subnum].index[0]&amp;#10;sub_conds = df.loc[ind,df.columns].values.tolist()&amp;#10;print(sub_conds)&amp;#10;# assign context keys&amp;#10;if sub_conds[1] == 0:&amp;#10;    key_related = 'q'&amp;#10;    key_unrelated = 'p'&amp;#10;    instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.'&amp;#10;elif sub_conds[1] == 1:&amp;#10;    key_related = 'p'&amp;#10;    key_unrelated = 'q'&amp;#10;    instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.'&amp;#10;&amp;#10;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="# allocate participant to relatedness response key accprding&amp;#10;# to counterbalanced_vars.xlsx&amp;#10;import pandas as pd&amp;#10;df = pd.read_csv('counterbalanced_vars_behav.csv') # match to relevant experiment var table&amp;#10;subnum = int(expInfo['participant'])&amp;#10;ind = df[df['Participant'] == subnum].index[0]&amp;#10;sub_conds = df.loc[ind,df.columns].values.tolist()&amp;#10;print(sub_conds)&amp;#10;# assign context keys&amp;#10;if sub_conds[1] == 0:&amp;#10;    key_related = 'q'&amp;#10;    key_unrelated = 'p'&amp;#10;    #instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.'&amp;#10;    # new instructions to match integrated task:&amp;#10;    instruction_text = (&amp;#10;        'If they are related, press Q\n'&amp;#10;        'If they are unrelated, press P\n\n'&amp;#10;        'IMPORTANT:\n'&amp;#10;        'ONLY respond when the screen says:\n'&amp;#10;        '&quot;Related (Q) or Unrelated (P)&quot;\n\n'&amp;#10;        'Do NOT respond while:\n'&amp;#10;        '- the scene and item are displayed\n'&amp;#10;        '- the fixation cross (+) is displayed\n'&amp;#10;        'Wait until the response screen appears, then press P or Q.\n\n'&amp;#10;        'Press SPACEBAR to continue.'&amp;#10;    )&amp;#10;elif sub_conds[1] == 1:&amp;#10;    key_related = 'p'&amp;#10;    key_unrelated = 'q'&amp;#10;    #instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.'&amp;#10;    # new instructions to match integrated task:&amp;#10;    instruction_text = (&amp;#10;        'If they are related, press P\n'&amp;#10;        'If they are unrelated, press Q\n\n'&amp;#10;        'IMPORTANT:\n'&amp;#10;        'ONLY respond when the screen says:\n'&amp;#10;        '&quot;Related (P) or Unrelated (Q)&quot;\n\n'&amp;#10;        'Do NOT respond while:\n'&amp;#10;        '- the scene and item are displayed\n'&amp;#10;        '- the fixation cross (+) is displayed\n'&amp;#10;        'Wait until the response screen appears, then press P or Q.\n\n'&amp;#10;        'Press SPACEBAR to continue.'&amp;#10;    )&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="// Function to read and process the CSV file&amp;#10; function loadCSVFile(filePath, callback) {&amp;#10;   var request = new XMLHttpRequest();&amp;#10;   request.open('GET', filePath, true);&amp;#10;   request.onreadystatechange = function () {&amp;#10;     if (request.readyState === 4 &amp;&amp; request.status === 200) {&amp;#10;       callback(request.responseText);&amp;#10;     }&amp;#10;   };&amp;#10;   request.send();&amp;#10; }&amp;#10;  &amp;#10; // Callback function to process CSV data&amp;#10; function processCSVData(csvData) {&amp;#10;   var lines = csvData.split('\n');&amp;#10;   var headers = lines[0].split(',');&amp;#10;   var data = lines.slice(1).map(function(line) {&amp;#10;     var values = line.split(',');&amp;#10;     var entry = {};&amp;#10;     headers.forEach(function(header, index) {&amp;#10;       entry[header] = values[index];&amp;#10;     });&amp;#10;     return entry;&amp;#10;   });&amp;#10;  &amp;#10;   var subnum = parseInt(expInfo['participant']);&amp;#10;   var sub_conds = data.find(function(row) {&amp;#10;     return parseInt(row['Participant']) === subnum;&amp;#10;   });&amp;#10;  &amp;#10;   // Converting row values to an array&amp;#10;   var sub_conds_values = Object.values(sub_conds);&amp;#10;  &amp;#10;   // Logging the values (similar to print in Python)&amp;#10;   console.log(sub_conds_values);&amp;#10;  &amp;#10;   // Assign context keys based on the value of sub_conds[1]&amp;#10;   if (sub_conds_values[1] === '0') {&amp;#10;     key_related = 'q';&amp;#10;     key_unrelated = 'p';&amp;#10;     instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.';&amp;#10;   } else if (sub_conds_values[1] === '1') {&amp;#10;     key_related = 'p';&amp;#10;     key_unrelated = 'q';&amp;#10;     instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.';&amp;#10;   }&amp;#10;  &amp;#10;   // Use key_related, key_unrelated, and instruction_text as needed in your experiment&amp;#10;   console.log({ key_related, key_unrelated, instruction_text });&amp;#10; }&amp;#10;  &amp;#10; // Load and process the CSV file&amp;#10; loadCSVFile('counterbalanced_vars.csv', processCSVData);" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>

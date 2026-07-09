@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="2025.2.4">
+<PsychoPy2experiment encoding="utf-8" version="2026.1.3">
   <Settings>
     <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
     <Param val="" valType="str" updates="None" name="Completed URL"/>
@@ -45,7 +45,7 @@
     <Param val="False" valType="bool" updates="None" name="elSimMode"/>
     <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
     <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
-    <Param val="training_task" valType="str" updates="None" name="expName"/>
+    <Param val="SBL_superimposed_training_task" valType="str" updates="None" name="expName"/>
     <Param val="" valType="str" updates="None" name="expVersion"/>
     <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
     <Param val="None" valType="str" updates="None" name="eyetracker"/>
@@ -220,7 +220,7 @@
         <Param val="scene_name_part1" valType="code" updates="None" name="name"/>
         <Param val="" valType="num" updates="constant" name="opacity"/>
         <Param val="0" valType="num" updates="constant" name="ori"/>
-        <Param val="(0, .34)" valType="list" updates="set every repeat" name="pos"/>
+        <Param val="(0, .32)" valType="list" updates="set every repeat" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
@@ -1131,7 +1131,7 @@
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="# allocate participant to relatedness response key accprding&amp;#10;# to counterbalanced_vars.xlsx&amp;#10;&amp;#10;import pandas as pd&amp;#10;subnum = int(expInfo['participant'])&amp;#10;if subnum &gt; 2000: # squid MEG study&amp;#10;    df_vars = pd.read_csv('counterbalanced_vars_meg_main.csv')&amp;#10;elif subnum &gt; 1000:      # MEG pilot study&amp;#10;    df_vars = pd.read_csv('counterbalanced_vars_meg_pilot.csv')&amp;#10;elif subnum &lt; 1000: # behavioral study&amp;#10;    df_vars = pd.read_csv('counterbalanced_vars_behav.csv')&amp;#10; &amp;#10;ind = df_vars[df_vars['Participant'] == subnum].index[0]&amp;#10;sub_conds = df_vars.loc[ind,df_vars.columns].values.tolist()&amp;#10;# assign context keys&amp;#10;if sub_conds[1] == 0:&amp;#10;    key_related = 'q'&amp;#10;    key_unrelated = 'p'&amp;#10;    instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nPress SPACEBAR to continue.'&amp;#10;elif sub_conds[1] == 1:&amp;#10;    key_related = 'p'&amp;#10;    key_unrelated = 'q'&amp;#10;    instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nPress SPACEBAR to continue.'&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="# allocate participant to relatedness response key accprding&amp;#10;# to counterbalanced_vars.xlsx&amp;#10;&amp;#10;import pandas as pd&amp;#10;subnum = int(expInfo['participant'])&amp;#10;if subnum &gt; 2000: # squid MEG study&amp;#10;    df_vars = pd.read_csv('counterbalanced_vars_meg_main.csv')&amp;#10;elif subnum &gt; 1000:      # MEG pilot study&amp;#10;    df_vars = pd.read_csv('counterbalanced_vars_meg_pilot.csv')&amp;#10;elif subnum &lt; 1000: # behavioral study&amp;#10;    df_vars = pd.read_csv('counterbalanced_vars_behav.csv')&amp;#10; &amp;#10;ind = df_vars[df_vars['Participant'] == subnum].index[0]&amp;#10;sub_conds = df_vars.loc[ind,df_vars.columns].values.tolist()&amp;#10;# assign context keys&amp;#10;if sub_conds[1] == 0:&amp;#10;    key_related = 'q'&amp;#10;    key_unrelated = 'p'&amp;#10;    #instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nPress SPACEBAR to continue.'&amp;#10;    #New instructions:&amp;#10;    instruction_text = (&amp;#10;            'If they are related, press Q\n'&amp;#10;            'If they are unrelated, press P\n\n'&amp;#10;            'IMPORTANT:\n'&amp;#10;            'ONLY respond when the screen says:\n'&amp;#10;            '&quot;Related (Q) or Unrelated (P)&quot;\n\n'&amp;#10;            'Do NOT respond while:\n'&amp;#10;            '- the scene and item are displayed\n'&amp;#10;            '- the fixation cross (+) is displayed\n'&amp;#10;            'Wait until the response screen appears, then press P or Q.\n\n'&amp;#10;            'Press SPACEBAR to continue.'&amp;#10;        )&amp;#10;elif sub_conds[1] == 1:&amp;#10;    key_related = 'p'&amp;#10;    key_unrelated = 'q'&amp;#10;    #instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nPress SPACEBAR to continue.'&amp;#10;    #New Instructions:&amp;#10;    instruction_text = (&amp;#10;            'If they are related, press P\n'&amp;#10;            'If they are unrelated, press Q\n\n'&amp;#10;            'IMPORTANT:\n'&amp;#10;            'ONLY respond when the screen says:\n'&amp;#10;            '&quot;Related (P) or Unrelated (Q)&quot;\n\n'&amp;#10;            'Do NOT respond while:\n'&amp;#10;            '- the scene and item are displayed\n'&amp;#10;            '- the fixation cross (+) is displayed\n'&amp;#10;            'Wait until the response screen appears, then press P or Q.\n\n'&amp;#10;            'Press SPACEBAR to continue.'&amp;#10;        )&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
@@ -1269,7 +1269,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(1440, 900)" valType="list" updates="constant" name="size"/>
+        <Param val="(1.78, 1.0)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -1277,7 +1277,7 @@
         <Param val="2" valType="code" updates="constant" name="stopVal"/>
         <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
         <Param val="128" valType="num" updates="constant" name="texture resolution"/>
-        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
         <Param val="" valType="code" updates="None" name="validator"/>
       </ImageComponent>
       <ImageComponent name="image_item" plugin="None">
@@ -3662,7 +3662,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(2.11, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="(1.778, 1)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -3728,7 +3728,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(2.11, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="(1.778, 1)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -3794,7 +3794,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(2.11, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="(1.778, 1)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -3860,7 +3860,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(2.11, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="(1.778, 1)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -3926,7 +3926,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(2.11, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="(1.778, 1)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -3992,7 +3992,7 @@
         <Param val="0" valType="num" updates="constant" name="ori"/>
         <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
         <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
-        <Param val="(2.11, 1)" valType="list" updates="constant" name="size"/>
+        <Param val="(1.778, 1)" valType="list" updates="constant" name="size"/>
         <Param val="" valType="code" updates="None" name="startEstim"/>
         <Param val="time (s)" valType="str" updates="None" name="startType"/>
         <Param val="0.0" valType="code" updates="None" name="startVal"/>
@@ -4140,7 +4140,7 @@
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="False" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="0" valType="num"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
       <Param name="name" updates="None" val="skip_to_part4_debug" valType="code"/>
       <Param name="random seed" updates="None" val="" valType="code"/>
     </LoopInitiator>

@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Wed Jul  8 23:14:36 2026
+This experiment was created using PsychoPy3 Experiment Builder (v2026.1.3),
+    on July 09, 2026, at 13:43
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -38,8 +38,8 @@ deviceManager = hardware.DeviceManager()
 # ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 # store info about the experiment session
-psychopyVersion = '2025.2.4'
-expName = 'training_task'  # from the Builder filename that created this script
+psychopyVersion = '2026.1.3'
+expName = 'SBL_superimposed_training_task'  # from the Builder filename that created this script
 expVersion = ''
 # a list of functions to run when the experiment ends (starts off blank)
 runAtExit = []
@@ -132,10 +132,12 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/nitzanlubi/Documents/schema_based_learning/sbl_superimposed_behav/training_task_superimposed_behav/training_task_lastrun.py',
+        originPath='Z:\\nitzan\\SBL\\sbl_superimposed_behavioral_Princeton\\training_task_superimposed_behav\\training_task_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
+    # store pilot mode in data file
+    thisExp.addData('piloting', PILOTING, priority=priority.LOW)
     thisExp.setPriority('thisRow.t', priority.CRITICAL)
     thisExp.setPriority('expName', priority.LOW)
     # return experiment handler
@@ -765,9 +767,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "scene_item_presentation" ---
     image_scene = visual.ImageStim(
         win=win,
-        name='image_scene', units='pix', 
+        name='image_scene', units='height', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(1440, 900),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.78, 1.0),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -814,7 +816,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst1', units='height', 
         image='stimuli/instructions_imgs/inst1.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.778, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-3.0)
@@ -825,7 +827,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst2', units='height', 
         image='stimuli/instructions_imgs/inst2.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.778, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -836,7 +838,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst3', units='height', 
         image='stimuli/instructions_imgs/inst3.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.778, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -847,7 +849,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst4', units='height', 
         image='stimuli/instructions_imgs/inst4.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.778, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -858,7 +860,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst5', units='height', 
         image='stimuli/instructions_imgs/inst5.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.778, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -869,7 +871,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_inst6', units='height', 
         image='stimuli/instructions_imgs/inst6.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(2.11, 1),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.778, 1),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -1502,7 +1504,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             else:
                 p1_scene = 'stimuli/scenes/p1_scenes/P1_U2.jpg'
         scene_image_part1.setImage(p1_scene)
-        scene_name_part1.setPos((0, .34))
+        scene_name_part1.setPos((0, .32))
         scene_name_part1.setText(txt_scene_present)
         text_scenename.setText(txt_scenename)
         # create starting attributes for key_sceneLearn
@@ -2185,7 +2187,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of conditions etc
     skip_to_part4_debug = data.TrialHandler2(
         name='skip_to_part4_debug',
-        nReps=0.0, 
+        nReps=1.0, 
         method='random', 
         extraInfo=expInfo, 
         originPath=-1, 
@@ -4509,7 +4511,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             )
             # once done pausing, restore running status
             skip_to_part4_debug.status = STARTED
-    # completed 0.0 repeats of 'skip_to_part4_debug'
+    # completed 1.0 repeats of 'skip_to_part4_debug'
     skip_to_part4_debug.status = FINISHED
     
     
@@ -4541,11 +4543,37 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     if sub_conds[1] == 0:
         key_related = 'q'
         key_unrelated = 'p'
-        instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nPress SPACEBAR to continue.'
+        #instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nPress SPACEBAR to continue.'
+        #New instructions:
+        instruction_text = (
+                'If they are related, press Q\n'
+                'If they are unrelated, press P\n\n'
+                'IMPORTANT:\n'
+                'ONLY respond when the screen says:\n'
+                '"Related (Q) or Unrelated (P)"\n\n'
+                'Do NOT respond while:\n'
+                '- the scene and item are displayed\n'
+                '- the fixation cross (+) is displayed\n'
+                'Wait until the response screen appears, then press P or Q.\n\n'
+                'Press SPACEBAR to continue.'
+            )
     elif sub_conds[1] == 1:
         key_related = 'p'
         key_unrelated = 'q'
-        instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nPress SPACEBAR to continue.'
+        #instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nPress SPACEBAR to continue.'
+        #New Instructions:
+        instruction_text = (
+                'If they are related, press P\n'
+                'If they are unrelated, press Q\n\n'
+                'IMPORTANT:\n'
+                'ONLY respond when the screen says:\n'
+                '"Related (P) or Unrelated (Q)"\n\n'
+                'Do NOT respond while:\n'
+                '- the scene and item are displayed\n'
+                '- the fixation cross (+) is displayed\n'
+                'Wait until the response screen appears, then press P or Q.\n\n'
+                'Press SPACEBAR to continue.'
+            )
     
     # create starting attributes for key_part4_instructions
     key_part4_instructions.keys = []
@@ -8802,6 +8830,10 @@ def endExperiment(thisExp, win=None):
     win : psychopy.visual.Window
         Window for this experiment.
     """
+    # stop any playback components
+    if thisExp.currentRoutine is not None:
+        for comp in thisExp.currentRoutine.getPlaybackComponents():
+            comp.stop()
     if win is not None:
         # remove autodraw from all current components
         win.clearAutoDraw()

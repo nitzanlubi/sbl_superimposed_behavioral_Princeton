@@ -1,8 +1,8 @@
 ﻿#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This experiment was created using PsychoPy3 Experiment Builder (v2025.2.4),
-    on Tue Jul  7 14:23:13 2026
+This experiment was created using PsychoPy3 Experiment Builder (v2026.1.3),
+    on July 09, 2026, at 14:05
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -39,7 +39,7 @@ deviceManager = hardware.DeviceManager()
 # ensure that relative paths start from the same directory as this script
 _thisDir = os.path.dirname(os.path.abspath(__file__))
 # store info about the experiment session
-psychopyVersion = '2025.2.4'
+psychopyVersion = '2026.1.3'
 expName = 'SBL_superimposed_encoding'  # from the Builder filename that created this script
 expVersion = ''
 # a list of functions to run when the experiment ends (starts off blank)
@@ -135,10 +135,12 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='/Users/nitzanlubi/Library/CloudStorage/GoogleDrive-nitzanlubi@gmail.com/My Drive/Lab/schema_based_learning/tasks/encoding_superimposed_behav/SBL_encoding_lastrun.py',
+        originPath='Z:\\nitzan\\SBL\\sbl_superimposed_behavioral_Princeton\\encoding_superimposed_behav\\SBL_encoding_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
+    # store pilot mode in data file
+    thisExp.addData('piloting', PILOTING, priority=priority.LOW)
     thisExp.setPriority('thisRow.t', priority.CRITICAL)
     thisExp.setPriority('expName', priority.LOW)
     # return experiment handler
@@ -399,13 +401,37 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     if sub_conds[1] == 0:
         key_related = 'q'
         key_unrelated = 'p'
-        instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.'
+        #instruction_text = 'If they are related, press Q\nIf they are unrelated, press P\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.'
+        # new instructions to match integrated task:
+        instruction_text = (
+            'If they are related, press Q\n'
+            'If they are unrelated, press P\n\n'
+            'IMPORTANT:\n'
+            'ONLY respond when the screen says:\n'
+            '"Related (Q) or Unrelated (P)"\n\n'
+            'Do NOT respond while:\n'
+            '- the scene and item are displayed\n'
+            '- the fixation cross (+) is displayed\n'
+            'Wait until the response screen appears, then press P or Q.\n\n'
+            'Press SPACEBAR to continue.'
+        )
     elif sub_conds[1] == 1:
         key_related = 'p'
         key_unrelated = 'q'
-        instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.'
-    
-    
+        #instruction_text = 'If they are related, press P\nIf they are unrelated, press Q\n\nIMPORTANT: you should press P or Q only when you see the question, AFTER the scene and item disappeared from the screen!\n\nPress SPACEBAR to continue.'
+        # new instructions to match integrated task:
+        instruction_text = (
+            'If they are related, press P\n'
+            'If they are unrelated, press Q\n\n'
+            'IMPORTANT:\n'
+            'ONLY respond when the screen says:\n'
+            '"Related (P) or Unrelated (Q)"\n\n'
+            'Do NOT respond while:\n'
+            '- the scene and item are displayed\n'
+            '- the fixation cross (+) is displayed\n'
+            'Wait until the response screen appears, then press P or Q.\n\n'
+            'Press SPACEBAR to continue.'
+        )
     
     # Run 'Begin Experiment' code from init_counterbalance
     
@@ -428,7 +454,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     text_instructions = visual.TextStim(win=win, name='text_instructions',
         text='In this item-scene association task, you will see different items (objects or animals) placed in one of the jungle or undersea scenes you memorized previously. After each presentation of an item and a scene, you will be asked to report whether they are related or unrelated. \n\nWhat does “related” mean?\n\nAn animal is related to a scene if it is plausible it would live in such an environment in real life. If not, it is unrelated.\n\nAn object is related to a scene if it is plausible it would be used in such an environment in real life. If not, it is unrelated.\n\nYou will see each item-scene pair three times in total.\n\nPress SPACEBAR to continue.',
         font='Open Sans',
-        pos=(0, 0), draggable=False, height=0.045, wrapWidth=None, ori=0.0, 
+        pos=(0, 0), draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
@@ -564,9 +590,9 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # --- Initialize components for Routine "scene_item_presentation" ---
     image_scene = visual.ImageStim(
         win=win,
-        name='image_scene', units='pix', 
+        name='image_scene', units='height', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(0, 0), draggable=False, size=(1920, 1080),
+        ori=0.0, pos=(0, 0), draggable=False, size=(1.78, 1.0),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
@@ -2693,6 +2719,10 @@ def endExperiment(thisExp, win=None):
     win : psychopy.visual.Window
         Window for this experiment.
     """
+    # stop any playback components
+    if thisExp.currentRoutine is not None:
+        for comp in thisExp.currentRoutine.getPlaybackComponents():
+            comp.stop()
     if win is not None:
         # remove autodraw from all current components
         win.clearAutoDraw()
