@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/app/builder/builder.py”, line 1608, in onPavloviaSync
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/app/pavlovia_ui/project.py”, line 854, in syncProject
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/projects/pavlovia.py”, line 873, in sync
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/projects/pavlovia.py”, line 1109, in firstPush
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/projects/pavlovia.py”, line 1249, in stageFiles
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/psychopy/projects/pavlovia.py”, line 1201, in getChanges
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/git/repo/base.py”, line 674, in untracked_files
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/git/repo/base.py”, line 697, in _get_untracked_files
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/git/util.py”, line 329, in finalize_process
+  File “/Applications/PsychoPy.app/Contents/Resources/lib/python3.8/git/cmd.py”, line 408, in wait
+git.exc.GitCommandError: Cmd(‘/Applications/PsychoPy.app/Contents/Resources/git-core/git’) failed due to: exit code(128)
+  cmdline: /Applications/PsychoPy.app/Contents/Resources/git-core/git status —porcelain —untracked-files
+  stderr: ‘fatal: index file smaller than expected
+‘

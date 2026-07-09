@@ -1,0 +1,283 @@
+14.9029 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c3a0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c340>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c190>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc97a2a87c0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.9029 	EXP 	window1: backgroundImage = ''
+14.9029 	EXP 	window1: backgroundFit = 'none'
+14.9031 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c4c0>
+14.9033 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c4c0>
+14.9084 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c4c0>
+14.9088 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c4c0>
+14.9770 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c4c0>
+14.9772 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c4c0>
+14.9776 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c4c0>
+14.9779 	EXP 	window1: mouseVisible = <method-wrapper '__getattribute__' of attributeSetter object at 0x7fc97a35c4c0>
+14.9887 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+14.9887 	EXP 	window1: recordFrameIntervals = False
+15.1760 	EXP 	window1: recordFrameIntervals = True
+15.3240 	EXP 	Screen (1) actual frame rate measured at 74.71Hz
+15.3241 	EXP 	window1: recordFrameIntervals = False
+15.3251 	EXP 	window1: mouseVisible = False
+17.3826 	EXP 	arithmetic_task: status = STARTED
+17.3829 	EXP 	window1: mouseVisible = False
+17.4160 	EXP 	Created text_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_instruction', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.4161 	EXP 	window1: mouseVisible = False
+17.4181 	EXP 	Created text_equation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_equation', opacity=1.0, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+17.4181 	EXP 	window1: mouseVisible = False
+17.4188 	EXP 	Created text_opt1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_opt1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+17.4188 	EXP 	window1: mouseVisible = False
+17.4194 	EXP 	Created text_opt2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_opt2', opacity=1.0, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+17.4194 	EXP 	window1: mouseVisible = False
+17.4200 	EXP 	Created text_opt3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_opt3', opacity=1.0, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+17.4201 	EXP 	window1: mouseVisible = False
+17.4217 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+17.4217 	EXP 	window1: mouseVisible = False
+17.4223 	EXP 	Created text_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_feedback', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+17.4223 	EXP 	window1: mouseVisible = False
+17.4262 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.4262 	EXP 	window1: mouseVisible = False
+17.4334 	EXP 	Created text_q1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_q1', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+17.4335 	EXP 	window1: mouseVisible = False
+17.4421 	EXP 	Created text_endscreen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_endscreen', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0153 	EXP 	text_instruction: autoDraw = True
+11.5012 	EXP 	Imported math_cond_file.csv as conditions, 50 conditions, 5 params
+11.5023 	EXP 	Created sequence: sequential, trialTypes=50, nReps=1, seed=None
+11.5025 	EXP 	New trial (rep=0, index=0): OrderedDict([('math_eq', '42 - 9'), ('CorrAns', 33), ('dstr1', 31), ('dstr2', 23), ('CorrAns_key', 2)])
+11.5185 	DATA 	Keypress: space
+11.5216 	EXP 	text_instruction: autoDraw = False
+11.5216 	EXP 	text_equation: height = 0.1
+11.5216 	EXP 	text_equation: height = 0.1
+11.5216 	EXP 	text_equation: height = 0.1
+11.5216 	EXP 	text_equation: text = '42 - 9'
+11.5216 	EXP 	text_opt1: height = 0.05
+11.5216 	EXP 	text_opt1: height = 0.05
+11.5216 	EXP 	text_opt1: height = 0.05
+11.5216 	EXP 	text_opt1: text = '1. 31'
+11.5216 	EXP 	text_opt2: height = 0.05
+11.5216 	EXP 	text_opt2: height = 0.05
+11.5216 	EXP 	text_opt2: height = 0.05
+11.5216 	EXP 	text_opt2: text = '2. 33'
+11.5216 	EXP 	text_opt3: height = 0.05
+11.5216 	EXP 	text_opt3: height = 0.05
+11.5216 	EXP 	text_opt3: height = 0.05
+11.5216 	EXP 	text_opt3: text = '3. 23'
+11.5216 	EXP 	text_equation: autoDraw = True
+11.5216 	EXP 	text_opt1: autoDraw = True
+11.5216 	EXP 	text_opt2: autoDraw = True
+11.5216 	EXP 	text_opt3: autoDraw = True
+13.6584 	DATA 	Keypress: 3
+13.6636 	EXP 	text_equation: autoDraw = False
+13.6636 	EXP 	text_opt1: autoDraw = False
+13.6636 	EXP 	text_opt2: autoDraw = False
+13.6636 	EXP 	text_opt3: autoDraw = False
+13.6636 	EXP 	text_2: autoDraw = True
+15.6682 	EXP 	text_2: autoDraw = False
+15.6682 	EXP 	text_2: autoDraw = False
+15.6682 	EXP 	text_feedback: height = 0.05
+15.6682 	EXP 	text_feedback: height = 0.05
+15.6682 	EXP 	text_feedback: height = 0.05
+15.6682 	EXP 	text_feedback: text = 'Incorrect!'
+15.6682 	EXP 	text_feedback: autoDraw = True
+18.6507 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+18.6513 	EXP 	New trial (rep=0, index=1): OrderedDict([('math_eq', '11 * 3'), ('CorrAns', 33), ('dstr1', 31), ('dstr2', 38), ('CorrAns_key', 1)])
+18.6767 	EXP 	text_feedback: autoDraw = False
+18.6767 	EXP 	text_equation: height = 0.1
+18.6767 	EXP 	text_equation: height = 0.1
+18.6767 	EXP 	text_equation: height = 0.1
+18.6767 	EXP 	text_equation: text = '11 * 3'
+18.6767 	EXP 	text_opt1: height = 0.05
+18.6767 	EXP 	text_opt1: height = 0.05
+18.6767 	EXP 	text_opt1: height = 0.05
+18.6767 	EXP 	text_opt1: text = '1. 33'
+18.6767 	EXP 	text_opt2: height = 0.05
+18.6767 	EXP 	text_opt2: height = 0.05
+18.6767 	EXP 	text_opt2: height = 0.05
+18.6767 	EXP 	text_opt2: text = '2. 31'
+18.6767 	EXP 	text_opt3: height = 0.05
+18.6767 	EXP 	text_opt3: height = 0.05
+18.6767 	EXP 	text_opt3: height = 0.05
+18.6767 	EXP 	text_opt3: text = '3. 38'
+18.6767 	EXP 	text_equation: autoDraw = True
+18.6767 	EXP 	text_opt1: autoDraw = True
+18.6767 	EXP 	text_opt2: autoDraw = True
+18.6767 	EXP 	text_opt3: autoDraw = True
+20.1869 	DATA 	Keypress: 1
+20.1987 	EXP 	text_equation: autoDraw = False
+20.1987 	EXP 	text_opt1: autoDraw = False
+20.1987 	EXP 	text_opt2: autoDraw = False
+20.1987 	EXP 	text_opt3: autoDraw = False
+20.1987 	EXP 	text_2: autoDraw = True
+22.1970 	EXP 	text_2: autoDraw = False
+22.1970 	EXP 	text_2: autoDraw = False
+22.1970 	EXP 	text_feedback: height = 0.05
+22.1970 	EXP 	text_feedback: height = 0.05
+22.1970 	EXP 	text_feedback: height = 0.05
+22.1970 	EXP 	text_feedback: text = 'Correct!'
+22.1970 	EXP 	text_feedback: autoDraw = True
+25.1860 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+25.1865 	EXP 	New trial (rep=0, index=2): OrderedDict([('math_eq', '118 / 2'), ('CorrAns', 59), ('dstr1', 63), ('dstr2', 57), ('CorrAns_key', 2)])
+25.2130 	EXP 	text_feedback: autoDraw = False
+25.2130 	EXP 	text_equation: height = 0.1
+25.2130 	EXP 	text_equation: height = 0.1
+25.2130 	EXP 	text_equation: height = 0.1
+25.2130 	EXP 	text_equation: text = '118 / 2'
+25.2130 	EXP 	text_opt1: height = 0.05
+25.2130 	EXP 	text_opt1: height = 0.05
+25.2130 	EXP 	text_opt1: height = 0.05
+25.2130 	EXP 	text_opt1: text = '1. 63'
+25.2130 	EXP 	text_opt2: height = 0.05
+25.2130 	EXP 	text_opt2: height = 0.05
+25.2130 	EXP 	text_opt2: height = 0.05
+25.2130 	EXP 	text_opt2: text = '2. 59'
+25.2130 	EXP 	text_opt3: height = 0.05
+25.2130 	EXP 	text_opt3: height = 0.05
+25.2130 	EXP 	text_opt3: height = 0.05
+25.2130 	EXP 	text_opt3: text = '3. 57'
+25.2130 	EXP 	text_equation: autoDraw = True
+25.2130 	EXP 	text_opt1: autoDraw = True
+25.2130 	EXP 	text_opt2: autoDraw = True
+25.2130 	EXP 	text_opt3: autoDraw = True
+29.3766 	DATA 	Keypress: 2
+29.3859 	EXP 	text_equation: autoDraw = False
+29.3859 	EXP 	text_opt1: autoDraw = False
+29.3859 	EXP 	text_opt2: autoDraw = False
+29.3859 	EXP 	text_opt3: autoDraw = False
+29.3859 	EXP 	text_2: autoDraw = True
+31.3864 	EXP 	text_2: autoDraw = False
+31.3864 	EXP 	text_2: autoDraw = False
+31.3864 	EXP 	text_feedback: text = 'Correct!'
+31.3864 	EXP 	text_feedback: autoDraw = True
+34.3771 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+34.3776 	EXP 	New trial (rep=0, index=3): OrderedDict([('math_eq', '36 - 13'), ('CorrAns', 23), ('dstr1', 28), ('dstr2', 22), ('CorrAns_key', 2)])
+34.4009 	EXP 	text_feedback: autoDraw = False
+34.4009 	EXP 	text_equation: height = 0.1
+34.4009 	EXP 	text_equation: height = 0.1
+34.4009 	EXP 	text_equation: height = 0.1
+34.4009 	EXP 	text_equation: text = '36 - 13'
+34.4009 	EXP 	text_opt1: height = 0.05
+34.4009 	EXP 	text_opt1: height = 0.05
+34.4009 	EXP 	text_opt1: height = 0.05
+34.4009 	EXP 	text_opt1: text = '1. 28'
+34.4009 	EXP 	text_opt2: height = 0.05
+34.4009 	EXP 	text_opt2: height = 0.05
+34.4009 	EXP 	text_opt2: height = 0.05
+34.4009 	EXP 	text_opt2: text = '2. 23'
+34.4009 	EXP 	text_opt3: height = 0.05
+34.4009 	EXP 	text_opt3: height = 0.05
+34.4009 	EXP 	text_opt3: height = 0.05
+34.4009 	EXP 	text_opt3: text = '3. 22'
+34.4009 	EXP 	text_equation: autoDraw = True
+34.4009 	EXP 	text_opt1: autoDraw = True
+34.4009 	EXP 	text_opt2: autoDraw = True
+34.4009 	EXP 	text_opt3: autoDraw = True
+37.5904 	DATA 	Keypress: 2
+37.5937 	EXP 	text_equation: autoDraw = False
+37.5937 	EXP 	text_opt1: autoDraw = False
+37.5937 	EXP 	text_opt2: autoDraw = False
+37.5937 	EXP 	text_opt3: autoDraw = False
+37.5937 	EXP 	text_2: autoDraw = True
+39.5895 	EXP 	text_2: autoDraw = False
+39.5895 	EXP 	text_2: autoDraw = False
+39.5895 	EXP 	text_feedback: text = 'Correct!'
+39.5895 	EXP 	text_feedback: autoDraw = True
+42.5793 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+42.5799 	EXP 	New trial (rep=0, index=4): OrderedDict([('math_eq', '38 - 12'), ('CorrAns', 26), ('dstr1', 23), ('dstr2', 36), ('CorrAns_key', 2)])
+42.6022 	EXP 	text_feedback: autoDraw = False
+42.6022 	EXP 	text_equation: height = 0.1
+42.6022 	EXP 	text_equation: height = 0.1
+42.6022 	EXP 	text_equation: height = 0.1
+42.6022 	EXP 	text_equation: text = '38 - 12'
+42.6022 	EXP 	text_opt1: height = 0.05
+42.6022 	EXP 	text_opt1: height = 0.05
+42.6022 	EXP 	text_opt1: height = 0.05
+42.6022 	EXP 	text_opt1: text = '1. 23'
+42.6022 	EXP 	text_opt2: height = 0.05
+42.6022 	EXP 	text_opt2: height = 0.05
+42.6022 	EXP 	text_opt2: height = 0.05
+42.6022 	EXP 	text_opt2: text = '2. 26'
+42.6022 	EXP 	text_opt3: height = 0.05
+42.6022 	EXP 	text_opt3: height = 0.05
+42.6022 	EXP 	text_opt3: height = 0.05
+42.6022 	EXP 	text_opt3: text = '3. 36'
+42.6022 	EXP 	text_equation: autoDraw = True
+42.6022 	EXP 	text_opt1: autoDraw = True
+42.6022 	EXP 	text_opt2: autoDraw = True
+42.6022 	EXP 	text_opt3: autoDraw = True
+44.1562 	DATA 	Keypress: 2
+44.1644 	EXP 	text_equation: autoDraw = False
+44.1644 	EXP 	text_opt1: autoDraw = False
+44.1644 	EXP 	text_opt2: autoDraw = False
+44.1644 	EXP 	text_opt3: autoDraw = False
+44.1644 	EXP 	text_2: autoDraw = True
+46.1654 	EXP 	text_2: autoDraw = False
+46.1654 	EXP 	text_2: autoDraw = False
+46.1654 	EXP 	text_feedback: text = 'Correct!'
+46.1654 	EXP 	text_feedback: autoDraw = True
+49.1552 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+49.1557 	EXP 	New trial (rep=0, index=5): OrderedDict([('math_eq', '38 + 26'), ('CorrAns', 64), ('dstr1', 54), ('dstr2', 62), ('CorrAns_key', 1)])
+49.1797 	EXP 	text_feedback: autoDraw = False
+49.1797 	EXP 	text_equation: height = 0.1
+49.1797 	EXP 	text_equation: height = 0.1
+49.1797 	EXP 	text_equation: height = 0.1
+49.1797 	EXP 	text_equation: text = '38 + 26'
+49.1797 	EXP 	text_opt1: height = 0.05
+49.1797 	EXP 	text_opt1: height = 0.05
+49.1797 	EXP 	text_opt1: height = 0.05
+49.1797 	EXP 	text_opt1: text = '1. 64'
+49.1797 	EXP 	text_opt2: height = 0.05
+49.1797 	EXP 	text_opt2: height = 0.05
+49.1797 	EXP 	text_opt2: height = 0.05
+49.1797 	EXP 	text_opt2: text = '2. 54'
+49.1797 	EXP 	text_opt3: height = 0.05
+49.1797 	EXP 	text_opt3: height = 0.05
+49.1797 	EXP 	text_opt3: height = 0.05
+49.1797 	EXP 	text_opt3: text = '3. 62'
+49.1797 	EXP 	text_equation: autoDraw = True
+49.1797 	EXP 	text_opt1: autoDraw = True
+49.1797 	EXP 	text_opt2: autoDraw = True
+49.1797 	EXP 	text_opt3: autoDraw = True
+50.1844 	DATA 	Keypress: 1
+50.1941 	EXP 	text_equation: autoDraw = False
+50.1941 	EXP 	text_opt1: autoDraw = False
+50.1941 	EXP 	text_opt2: autoDraw = False
+50.1941 	EXP 	text_opt3: autoDraw = False
+50.1941 	EXP 	text_2: autoDraw = True
+52.1944 	EXP 	text_2: autoDraw = False
+52.1944 	EXP 	text_2: autoDraw = False
+52.1944 	EXP 	text_feedback: text = 'Correct!'
+52.1944 	EXP 	text_feedback: autoDraw = True
+55.1834 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+55.1838 	EXP 	New trial (rep=0, index=6): OrderedDict([('math_eq', '108 / 2'), ('CorrAns', 54), ('dstr1', 56), ('dstr2', 64), ('CorrAns_key', 2)])
+55.2059 	EXP 	text_feedback: autoDraw = False
+55.2059 	EXP 	text_equation: height = 0.1
+55.2059 	EXP 	text_equation: height = 0.1
+55.2059 	EXP 	text_equation: height = 0.1
+55.2059 	EXP 	text_equation: text = '108 / 2'
+55.2059 	EXP 	text_opt1: height = 0.05
+55.2059 	EXP 	text_opt1: height = 0.05
+55.2059 	EXP 	text_opt1: height = 0.05
+55.2059 	EXP 	text_opt1: text = '1. 56'
+55.2059 	EXP 	text_opt2: text = '2. 54'
+55.2059 	EXP 	text_opt3: height = 0.05
+55.2059 	EXP 	text_opt3: height = 0.05
+55.2059 	EXP 	text_opt3: height = 0.05
+55.2059 	EXP 	text_opt3: text = '3. 64'
+55.2059 	EXP 	text_equation: autoDraw = True
+55.2059 	EXP 	text_opt1: autoDraw = True
+55.2059 	EXP 	text_opt2: autoDraw = True
+55.2059 	EXP 	text_opt3: autoDraw = True
+56.4001 	DATA 	Keypress: 3
+56.4088 	EXP 	text_equation: autoDraw = False
+56.4088 	EXP 	text_opt1: autoDraw = False
+56.4088 	EXP 	text_opt2: autoDraw = False
+56.4088 	EXP 	text_opt3: autoDraw = False
+56.4088 	EXP 	text_2: autoDraw = True
+58.4103 	EXP 	text_2: autoDraw = False
+58.4103 	EXP 	text_2: autoDraw = False
+58.4103 	EXP 	text_feedback: height = 0.05
+58.4103 	EXP 	text_feedback: height = 0.05
+58.4103 	EXP 	text_feedback: height = 0.05
+58.4103 	EXP 	text_feedback: text = 'Incorrect!'
+58.4103 	EXP 	text_feedback: autoDraw = True
+59.7819 	DATA 	Keypress: escape
+59.8518 	EXP 	arithmetic_task: status = STOPPED
+59.8633 	EXP 	text_feedback: autoDraw = False
+59.8634 	EXP 	arithmetic_task: status = STOPPED
+59.8983 	EXP 	window1: mouseVisible = True
