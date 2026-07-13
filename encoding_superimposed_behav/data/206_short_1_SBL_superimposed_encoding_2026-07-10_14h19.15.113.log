@@ -1,0 +1,14 @@
+7.7543 	WARNING 	Requested an unavailable screen number - using first available.
+7.7583 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [2560, 1440]. Using actual size
+12.5217 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+12.5264 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+12.5472 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+12.5512 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+12.5553 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+12.5593 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+12.5633 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+12.5673 	WARNING 	Font b'Open Sans' was requested. No similar font found.
+44.5343 	WARNING 	Requested image 'stimuli/scenes/scene_J1.png' not found but similar filename 'stimuli/scenes/scene_J1.jpg' exists. This will be used instead but changing the filename is advised.
+44.5567 	WARNING 	Requested image 'stimuli/scenes/scene_J2.png' not found but similar filename 'stimuli/scenes/scene_J2.jpg' exists. This will be used instead but changing the filename is advised.
+44.5954 	WARNING 	Requested image 'stimuli/scenes/scene_U1.png' not found but similar filename 'stimuli/scenes/scene_U1.jpg' exists. This will be used instead but changing the filename is advised.
+44.6154 	WARNING 	Requested image 'stimuli/scenes/scene_U2.png' not found but similar filename 'stimuli/scenes/scene_U2.jpg' exists. This will be used instead but changing the filename is advised.

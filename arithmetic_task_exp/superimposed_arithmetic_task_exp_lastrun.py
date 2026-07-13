@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2026.1.3),
-    on July 10, 2026, at 09:18
+    on July 13, 2026, at 10:07
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -135,7 +135,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='Z:\\nitzan\\SBL\\sbl_superimposed_behavioral_Princeton\\arithmetic_task_exp\\arithmetic_task_exp_lastrun.py',
+        originPath='Z:\\nitzan\\SBL\\sbl_superimposed_behavioral_Princeton\\arithmetic_task_exp\\superimposed_arithmetic_task_exp_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )

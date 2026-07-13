@@ -1,0 +1,1879 @@
+8.7188 	WARNING 	Requested an unavailable screen number - using first available.
+8.7208 	WARNING 	User requested fullscreen with size [1920 1080], but screen is actually [2560, 1440]. Using actual size
+8.9206 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002466C74D150>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002466C74D0F0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1., -1., -1.]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002466CA52CB0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=1, size=array([2560, 1440]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.9207 	EXP 	window1: backgroundImage = ''
+8.9207 	EXP 	window1: backgroundFit = 'none'
+9.3607 	EXP 	window1: Attempting to measure frame rate of screen (1) ...
+9.3608 	EXP 	window1: recordFrameIntervals = False
+9.5086 	EXP 	window1: recordFrameIntervals = True
+10.3424 	EXP 	window1: recordFrameIntervals = False
+10.3424 	EXP 	Screen (1) actual frame rate measured at 119.76Hz
+13.4730 	EXP 	arithmetic_task: status = STARTED
+13.5282 	EXP 	Created text_instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_instruction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.5306 	EXP 	Created text_equation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_equation', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.5313 	EXP 	Created text_opt1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_opt1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.5320 	EXP 	Created text_opt2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_opt2', opacity=1, ori=0.0, pos=array([ 0. , -0.1]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.5327 	EXP 	Created text_opt3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_opt3', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.5353 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+13.5360 	EXP 	Created text_feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_feedback', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+13.5424 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.5544 	EXP 	Created text_q1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_q1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+13.5641 	EXP 	Created text_endscreen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_endscreen', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0052 	EXP 	text_instruction: autoDraw = True
+7.7743 	EXP 	Device response: <KeyPress from None: t=7.758715000003576, value=space, duration=None>
+7.7905 	EXP 	Imported math_cond_file.csv as conditions, 50 conditions, 5 params
+7.7910 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'math_eq': '42 - 9', 'CorrAns': np.int64(33), 'dstr1': np.int64(31), 'dstr2': np.int64(23), 'CorrAns_key': np.int64(2), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+7.8124 	DATA 	Keypress: space
+7.8140 	EXP 	text_instruction: autoDraw = False
+7.8140 	EXP 	text_equation: height = np.float64(0.1)
+7.8140 	EXP 	text_equation: height = np.float64(0.1)
+7.8140 	EXP 	text_equation: height = np.float64(0.1)
+7.8140 	EXP 	text_equation: text = '42 - 9'
+7.8140 	EXP 	text_opt1: height = np.float64(0.05)
+7.8140 	EXP 	text_opt1: height = np.float64(0.05)
+7.8140 	EXP 	text_opt1: height = np.float64(0.05)
+7.8140 	EXP 	text_opt1: text = '1. 31'
+7.8140 	EXP 	text_opt2: height = np.float64(0.05)
+7.8140 	EXP 	text_opt2: height = np.float64(0.05)
+7.8140 	EXP 	text_opt2: height = np.float64(0.05)
+7.8140 	EXP 	text_opt2: text = '2. 33'
+7.8140 	EXP 	text_opt3: height = np.float64(0.05)
+7.8140 	EXP 	text_opt3: height = np.float64(0.05)
+7.8140 	EXP 	text_opt3: height = np.float64(0.05)
+7.8140 	EXP 	text_opt3: text = '3. 23'
+7.8140 	EXP 	text_equation: autoDraw = True
+7.8140 	EXP 	text_opt1: autoDraw = True
+7.8140 	EXP 	text_opt2: autoDraw = True
+7.8140 	EXP 	text_opt3: autoDraw = True
+7.8623 	EXP 	Device response: <KeyPress from None: t=7.758715000003576, value=space, duration=0.09616940002888441>
+14.1286 	EXP 	Device response: <KeyPress from None: t=14.126137000042945, value=2, duration=None>
+14.1302 	DATA 	Keypress: 2
+14.1365 	EXP 	text_equation: autoDraw = False
+14.1365 	EXP 	text_opt1: autoDraw = False
+14.1365 	EXP 	text_opt2: autoDraw = False
+14.1365 	EXP 	text_opt3: autoDraw = False
+14.1365 	EXP 	text_2: autoDraw = True
+14.2709 	EXP 	Device response: <KeyPress from None: t=14.126137000042945, value=2, duration=0.1443801000714302>
+16.1285 	EXP 	text_2: autoDraw = False
+16.1285 	EXP 	text_2: autoDraw = False
+16.1285 	EXP 	text_feedback: height = np.float64(0.05)
+16.1285 	EXP 	text_feedback: height = np.float64(0.05)
+16.1285 	EXP 	text_feedback: height = np.float64(0.05)
+16.1285 	EXP 	text_feedback: text = 'Correct!'
+16.1285 	EXP 	text_feedback: autoDraw = True
+19.1160 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'math_eq': '11 * 3', 'CorrAns': np.int64(33), 'dstr1': np.int64(31), 'dstr2': np.int64(38), 'CorrAns_key': np.int64(1), 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+19.1275 	EXP 	text_feedback: autoDraw = False
+19.1275 	EXP 	text_feedback: autoDraw = False
+19.1275 	EXP 	text_equation: height = np.float64(0.1)
+19.1275 	EXP 	text_equation: height = np.float64(0.1)
+19.1275 	EXP 	text_equation: height = np.float64(0.1)
+19.1275 	EXP 	text_equation: text = '11 * 3'
+19.1275 	EXP 	text_opt1: height = np.float64(0.05)
+19.1275 	EXP 	text_opt1: height = np.float64(0.05)
+19.1275 	EXP 	text_opt1: height = np.float64(0.05)
+19.1275 	EXP 	text_opt1: text = '1. 33'
+19.1275 	EXP 	text_opt2: height = np.float64(0.05)
+19.1275 	EXP 	text_opt2: height = np.float64(0.05)
+19.1275 	EXP 	text_opt2: height = np.float64(0.05)
+19.1275 	EXP 	text_opt2: text = '2. 31'
+19.1275 	EXP 	text_opt3: height = np.float64(0.05)
+19.1275 	EXP 	text_opt3: height = np.float64(0.05)
+19.1275 	EXP 	text_opt3: height = np.float64(0.05)
+19.1275 	EXP 	text_opt3: text = '3. 38'
+19.1275 	EXP 	text_equation: autoDraw = True
+19.1275 	EXP 	text_opt1: autoDraw = True
+19.1275 	EXP 	text_opt2: autoDraw = True
+19.1275 	EXP 	text_opt3: autoDraw = True
+20.4540 	EXP 	Device response: <KeyPress from None: t=20.446764399996027, value=1, duration=None>
+20.4550 	DATA 	Keypress: 1
+20.4619 	EXP 	text_equation: autoDraw = False
+20.4619 	EXP 	text_opt1: autoDraw = False
+20.4619 	EXP 	text_opt2: autoDraw = False
+20.4619 	EXP 	text_opt3: autoDraw = False
+20.4619 	EXP 	text_2: autoDraw = True
+20.5455 	EXP 	Device response: <KeyPress from None: t=20.446764399996027, value=1, duration=0.09562960010953248>
+22.4537 	EXP 	text_2: autoDraw = False
+22.4537 	EXP 	text_2: autoDraw = False
+22.4537 	EXP 	text_feedback: text = 'Correct!'
+22.4537 	EXP 	text_feedback: autoDraw = True
+25.4410 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'math_eq': '118 / 2', 'CorrAns': np.int64(59), 'dstr1': np.int64(63), 'dstr2': np.int64(57), 'CorrAns_key': np.int64(2), 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+25.4531 	EXP 	text_feedback: autoDraw = False
+25.4531 	EXP 	text_feedback: autoDraw = False
+25.4531 	EXP 	text_equation: height = np.float64(0.1)
+25.4531 	EXP 	text_equation: height = np.float64(0.1)
+25.4531 	EXP 	text_equation: height = np.float64(0.1)
+25.4531 	EXP 	text_equation: text = '118 / 2'
+25.4531 	EXP 	text_opt1: height = np.float64(0.05)
+25.4531 	EXP 	text_opt1: height = np.float64(0.05)
+25.4531 	EXP 	text_opt1: height = np.float64(0.05)
+25.4531 	EXP 	text_opt1: text = '1. 63'
+25.4531 	EXP 	text_opt2: height = np.float64(0.05)
+25.4531 	EXP 	text_opt2: height = np.float64(0.05)
+25.4531 	EXP 	text_opt2: height = np.float64(0.05)
+25.4531 	EXP 	text_opt2: text = '2. 59'
+25.4531 	EXP 	text_opt3: height = np.float64(0.05)
+25.4531 	EXP 	text_opt3: height = np.float64(0.05)
+25.4531 	EXP 	text_opt3: height = np.float64(0.05)
+25.4531 	EXP 	text_opt3: text = '3. 57'
+25.4531 	EXP 	text_equation: autoDraw = True
+25.4531 	EXP 	text_opt1: autoDraw = True
+25.4531 	EXP 	text_opt2: autoDraw = True
+25.4531 	EXP 	text_opt3: autoDraw = True
+30.4042 	EXP 	Device response: <KeyPress from None: t=30.39876350015402, value=2, duration=None>
+30.4052 	DATA 	Keypress: 2
+30.4121 	EXP 	text_equation: autoDraw = False
+30.4121 	EXP 	text_opt1: autoDraw = False
+30.4121 	EXP 	text_opt2: autoDraw = False
+30.4121 	EXP 	text_opt3: autoDraw = False
+30.4121 	EXP 	text_2: autoDraw = True
+30.4955 	EXP 	Device response: <KeyPress from None: t=30.39876350015402, value=2, duration=0.0954099998343736>
+32.4036 	EXP 	text_2: autoDraw = False
+32.4036 	EXP 	text_2: autoDraw = False
+32.4036 	EXP 	text_feedback: text = 'Correct!'
+32.4036 	EXP 	text_feedback: autoDraw = True
+35.3911 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'math_eq': '36 - 13', 'CorrAns': np.int64(23), 'dstr1': np.int64(28), 'dstr2': np.int64(22), 'CorrAns_key': np.int64(2), 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+35.4007 	EXP 	text_feedback: autoDraw = False
+35.4007 	EXP 	text_feedback: autoDraw = False
+35.4007 	EXP 	text_equation: height = np.float64(0.1)
+35.4007 	EXP 	text_equation: height = np.float64(0.1)
+35.4007 	EXP 	text_equation: height = np.float64(0.1)
+35.4007 	EXP 	text_equation: text = '36 - 13'
+35.4007 	EXP 	text_opt1: height = np.float64(0.05)
+35.4007 	EXP 	text_opt1: height = np.float64(0.05)
+35.4007 	EXP 	text_opt1: height = np.float64(0.05)
+35.4007 	EXP 	text_opt1: text = '1. 28'
+35.4007 	EXP 	text_opt2: height = np.float64(0.05)
+35.4007 	EXP 	text_opt2: height = np.float64(0.05)
+35.4007 	EXP 	text_opt2: height = np.float64(0.05)
+35.4007 	EXP 	text_opt2: text = '2. 23'
+35.4007 	EXP 	text_opt3: height = np.float64(0.05)
+35.4007 	EXP 	text_opt3: height = np.float64(0.05)
+35.4007 	EXP 	text_opt3: height = np.float64(0.05)
+35.4007 	EXP 	text_opt3: text = '3. 22'
+35.4007 	EXP 	text_equation: autoDraw = True
+35.4007 	EXP 	text_opt1: autoDraw = True
+35.4007 	EXP 	text_opt2: autoDraw = True
+35.4007 	EXP 	text_opt3: autoDraw = True
+39.0548 	DATA 	Keypress: 2
+39.0626 	EXP 	Device response: <KeyPress from None: t=39.05444180010818, value=2, duration=None>
+39.0703 	EXP 	text_equation: autoDraw = False
+39.0703 	EXP 	text_opt1: autoDraw = False
+39.0703 	EXP 	text_opt2: autoDraw = False
+39.0703 	EXP 	text_opt3: autoDraw = False
+39.0703 	EXP 	text_2: autoDraw = True
+39.1542 	EXP 	Device response: <KeyPress from None: t=39.05444180010818, value=2, duration=0.09565680008381605>
+41.0619 	EXP 	text_2: autoDraw = False
+41.0619 	EXP 	text_2: autoDraw = False
+41.0619 	EXP 	text_feedback: text = 'Correct!'
+41.0619 	EXP 	text_feedback: autoDraw = True
+44.0498 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'math_eq': '38 - 12', 'CorrAns': np.int64(26), 'dstr1': np.int64(23), 'dstr2': np.int64(36), 'CorrAns_key': np.int64(2), 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+44.0580 	EXP 	text_feedback: autoDraw = False
+44.0580 	EXP 	text_feedback: autoDraw = False
+44.0580 	EXP 	text_equation: height = np.float64(0.1)
+44.0580 	EXP 	text_equation: height = np.float64(0.1)
+44.0580 	EXP 	text_equation: height = np.float64(0.1)
+44.0580 	EXP 	text_equation: text = '38 - 12'
+44.0580 	EXP 	text_opt1: height = np.float64(0.05)
+44.0580 	EXP 	text_opt1: height = np.float64(0.05)
+44.0580 	EXP 	text_opt1: height = np.float64(0.05)
+44.0580 	EXP 	text_opt1: text = '1. 23'
+44.0580 	EXP 	text_opt2: height = np.float64(0.05)
+44.0580 	EXP 	text_opt2: height = np.float64(0.05)
+44.0580 	EXP 	text_opt2: height = np.float64(0.05)
+44.0580 	EXP 	text_opt2: text = '2. 26'
+44.0580 	EXP 	text_opt3: height = np.float64(0.05)
+44.0580 	EXP 	text_opt3: height = np.float64(0.05)
+44.0580 	EXP 	text_opt3: height = np.float64(0.05)
+44.0580 	EXP 	text_opt3: text = '3. 36'
+44.0580 	EXP 	text_equation: autoDraw = True
+44.0580 	EXP 	text_opt1: autoDraw = True
+44.0580 	EXP 	text_opt2: autoDraw = True
+44.0580 	EXP 	text_opt3: autoDraw = True
+46.3377 	EXP 	Device response: <KeyPress from None: t=46.334592200117186, value=2, duration=None>
+46.3387 	DATA 	Keypress: 2
+46.3457 	EXP 	text_equation: autoDraw = False
+46.3457 	EXP 	text_opt1: autoDraw = False
+46.3457 	EXP 	text_opt2: autoDraw = False
+46.3457 	EXP 	text_opt3: autoDraw = False
+46.3457 	EXP 	text_2: autoDraw = True
+46.4212 	EXP 	Device response: <KeyPress from None: t=46.334592200117186, value=2, duration=0.08014429989270866>
+48.3375 	EXP 	text_2: autoDraw = False
+48.3375 	EXP 	text_2: autoDraw = False
+48.3375 	EXP 	text_feedback: text = 'Correct!'
+48.3375 	EXP 	text_feedback: autoDraw = True
+51.3251 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'math_eq': '38 + 26', 'CorrAns': np.int64(64), 'dstr1': np.int64(54), 'dstr2': np.int64(62), 'CorrAns_key': np.int64(1), 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+51.3352 	EXP 	text_feedback: autoDraw = False
+51.3352 	EXP 	text_feedback: autoDraw = False
+51.3352 	EXP 	text_equation: height = np.float64(0.1)
+51.3352 	EXP 	text_equation: height = np.float64(0.1)
+51.3352 	EXP 	text_equation: height = np.float64(0.1)
+51.3352 	EXP 	text_equation: text = '38 + 26'
+51.3352 	EXP 	text_opt1: height = np.float64(0.05)
+51.3352 	EXP 	text_opt1: height = np.float64(0.05)
+51.3352 	EXP 	text_opt1: height = np.float64(0.05)
+51.3352 	EXP 	text_opt1: text = '1. 64'
+51.3352 	EXP 	text_opt2: height = np.float64(0.05)
+51.3352 	EXP 	text_opt2: height = np.float64(0.05)
+51.3352 	EXP 	text_opt2: height = np.float64(0.05)
+51.3352 	EXP 	text_opt2: text = '2. 54'
+51.3352 	EXP 	text_opt3: height = np.float64(0.05)
+51.3352 	EXP 	text_opt3: height = np.float64(0.05)
+51.3352 	EXP 	text_opt3: height = np.float64(0.05)
+51.3352 	EXP 	text_opt3: text = '3. 62'
+51.3352 	EXP 	text_equation: autoDraw = True
+51.3352 	EXP 	text_opt1: autoDraw = True
+51.3352 	EXP 	text_opt2: autoDraw = True
+51.3352 	EXP 	text_opt3: autoDraw = True
+57.3126 	EXP 	Device response: <KeyPress from None: t=57.31099750008434, value=2, duration=None>
+57.3136 	DATA 	Keypress: 2
+57.3208 	EXP 	text_equation: autoDraw = False
+57.3208 	EXP 	text_opt1: autoDraw = False
+57.3208 	EXP 	text_opt2: autoDraw = False
+57.3208 	EXP 	text_opt3: autoDraw = False
+57.3208 	EXP 	text_2: autoDraw = True
+57.4463 	EXP 	Device response: <KeyPress from None: t=57.31099750008434, value=2, duration=0.12776730000041425>
+59.3125 	EXP 	text_2: autoDraw = False
+59.3125 	EXP 	text_2: autoDraw = False
+59.3125 	EXP 	text_feedback: height = np.float64(0.05)
+59.3125 	EXP 	text_feedback: height = np.float64(0.05)
+59.3125 	EXP 	text_feedback: height = np.float64(0.05)
+59.3125 	EXP 	text_feedback: text = 'Incorrect!'
+59.3125 	EXP 	text_feedback: autoDraw = True
+62.2999 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'math_eq': '108 / 2', 'CorrAns': np.int64(54), 'dstr1': np.int64(56), 'dstr2': np.int64(64), 'CorrAns_key': np.int64(2), 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+62.3086 	EXP 	text_feedback: autoDraw = False
+62.3086 	EXP 	text_feedback: autoDraw = False
+62.3086 	EXP 	text_equation: height = np.float64(0.1)
+62.3086 	EXP 	text_equation: height = np.float64(0.1)
+62.3086 	EXP 	text_equation: height = np.float64(0.1)
+62.3086 	EXP 	text_equation: text = '108 / 2'
+62.3086 	EXP 	text_opt1: height = np.float64(0.05)
+62.3086 	EXP 	text_opt1: height = np.float64(0.05)
+62.3086 	EXP 	text_opt1: height = np.float64(0.05)
+62.3086 	EXP 	text_opt1: text = '1. 56'
+62.3086 	EXP 	text_opt2: text = '2. 54'
+62.3086 	EXP 	text_opt3: height = np.float64(0.05)
+62.3086 	EXP 	text_opt3: height = np.float64(0.05)
+62.3086 	EXP 	text_opt3: height = np.float64(0.05)
+62.3086 	EXP 	text_opt3: text = '3. 64'
+62.3086 	EXP 	text_equation: autoDraw = True
+62.3086 	EXP 	text_opt1: autoDraw = True
+62.3086 	EXP 	text_opt2: autoDraw = True
+62.3086 	EXP 	text_opt3: autoDraw = True
+66.5631 	EXP 	Device response: <KeyPress from None: t=66.55848600016907, value=3, duration=None>
+66.5641 	DATA 	Keypress: 3
+66.5709 	EXP 	text_equation: autoDraw = False
+66.5709 	EXP 	text_opt1: autoDraw = False
+66.5709 	EXP 	text_opt2: autoDraw = False
+66.5709 	EXP 	text_opt3: autoDraw = False
+66.5709 	EXP 	text_2: autoDraw = True
+66.7213 	EXP 	Device response: <KeyPress from None: t=66.55848600016907, value=3, duration=0.15978370001539588>
+68.5627 	EXP 	text_2: autoDraw = False
+68.5627 	EXP 	text_2: autoDraw = False
+68.5627 	EXP 	text_feedback: text = 'Incorrect!'
+68.5627 	EXP 	text_feedback: autoDraw = True
+71.5502 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'math_eq': '15 * 2', 'CorrAns': np.int64(30), 'dstr1': np.int64(27), 'dstr2': np.int64(26), 'CorrAns_key': np.int64(2), 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+71.5605 	EXP 	text_feedback: autoDraw = False
+71.5605 	EXP 	text_feedback: autoDraw = False
+71.5605 	EXP 	text_equation: height = np.float64(0.1)
+71.5605 	EXP 	text_equation: height = np.float64(0.1)
+71.5605 	EXP 	text_equation: height = np.float64(0.1)
+71.5605 	EXP 	text_equation: text = '15 * 2'
+71.5605 	EXP 	text_opt1: height = np.float64(0.05)
+71.5605 	EXP 	text_opt1: height = np.float64(0.05)
+71.5605 	EXP 	text_opt1: height = np.float64(0.05)
+71.5605 	EXP 	text_opt1: text = '1. 27'
+71.5605 	EXP 	text_opt2: height = np.float64(0.05)
+71.5605 	EXP 	text_opt2: height = np.float64(0.05)
+71.5605 	EXP 	text_opt2: height = np.float64(0.05)
+71.5605 	EXP 	text_opt2: text = '2. 30'
+71.5605 	EXP 	text_opt3: height = np.float64(0.05)
+71.5605 	EXP 	text_opt3: height = np.float64(0.05)
+71.5605 	EXP 	text_opt3: height = np.float64(0.05)
+71.5605 	EXP 	text_opt3: text = '3. 26'
+71.5605 	EXP 	text_equation: autoDraw = True
+71.5605 	EXP 	text_opt1: autoDraw = True
+71.5605 	EXP 	text_opt2: autoDraw = True
+71.5605 	EXP 	text_opt3: autoDraw = True
+73.3295 	EXP 	Device response: <KeyPress from None: t=73.32648640009575, value=2, duration=None>
+73.3306 	DATA 	Keypress: 2
+73.3377 	EXP 	text_equation: autoDraw = False
+73.3377 	EXP 	text_opt1: autoDraw = False
+73.3377 	EXP 	text_opt2: autoDraw = False
+73.3377 	EXP 	text_opt3: autoDraw = False
+73.3377 	EXP 	text_2: autoDraw = True
+73.3962 	EXP 	Device response: <KeyPress from None: t=73.32648640009575, value=2, duration=0.06407340010628104>
+75.3293 	EXP 	text_2: autoDraw = False
+75.3293 	EXP 	text_2: autoDraw = False
+75.3293 	EXP 	text_feedback: height = np.float64(0.05)
+75.3293 	EXP 	text_feedback: height = np.float64(0.05)
+75.3293 	EXP 	text_feedback: height = np.float64(0.05)
+75.3293 	EXP 	text_feedback: text = 'Correct!'
+75.3293 	EXP 	text_feedback: autoDraw = True
+78.3172 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'math_eq': '30 - 14', 'CorrAns': np.int64(16), 'dstr1': np.int64(17), 'dstr2': np.int64(18), 'CorrAns_key': np.int64(2), 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+78.3254 	EXP 	text_feedback: autoDraw = False
+78.3254 	EXP 	text_feedback: autoDraw = False
+78.3254 	EXP 	text_equation: height = np.float64(0.1)
+78.3254 	EXP 	text_equation: height = np.float64(0.1)
+78.3254 	EXP 	text_equation: height = np.float64(0.1)
+78.3254 	EXP 	text_equation: text = '30 - 14'
+78.3254 	EXP 	text_opt1: height = np.float64(0.05)
+78.3254 	EXP 	text_opt1: height = np.float64(0.05)
+78.3254 	EXP 	text_opt1: height = np.float64(0.05)
+78.3254 	EXP 	text_opt1: text = '1. 17'
+78.3254 	EXP 	text_opt2: height = np.float64(0.05)
+78.3254 	EXP 	text_opt2: height = np.float64(0.05)
+78.3254 	EXP 	text_opt2: height = np.float64(0.05)
+78.3254 	EXP 	text_opt2: text = '2. 16'
+78.3254 	EXP 	text_opt3: height = np.float64(0.05)
+78.3254 	EXP 	text_opt3: height = np.float64(0.05)
+78.3254 	EXP 	text_opt3: height = np.float64(0.05)
+78.3254 	EXP 	text_opt3: text = '3. 18'
+78.3254 	EXP 	text_equation: autoDraw = True
+78.3254 	EXP 	text_opt1: autoDraw = True
+78.3254 	EXP 	text_opt2: autoDraw = True
+78.3254 	EXP 	text_opt3: autoDraw = True
+80.0465 	EXP 	Device response: <KeyPress from None: t=80.04612320009619, value=2, duration=None>
+80.0476 	DATA 	Keypress: 2
+80.0546 	EXP 	text_equation: autoDraw = False
+80.0546 	EXP 	text_opt1: autoDraw = False
+80.0546 	EXP 	text_opt2: autoDraw = False
+80.0546 	EXP 	text_opt3: autoDraw = False
+80.0546 	EXP 	text_2: autoDraw = True
+80.1970 	EXP 	Device response: <KeyPress from None: t=80.04612320009619, value=2, duration=0.14439060003496706>
+82.0462 	EXP 	text_2: autoDraw = False
+82.0462 	EXP 	text_2: autoDraw = False
+82.0462 	EXP 	text_feedback: text = 'Correct!'
+82.0462 	EXP 	text_feedback: autoDraw = True
+85.0338 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'math_eq': '13 * 2', 'CorrAns': np.int64(26), 'dstr1': np.int64(24), 'dstr2': np.int64(23), 'CorrAns_key': np.int64(3), 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+85.0420 	EXP 	text_feedback: autoDraw = False
+85.0420 	EXP 	text_feedback: autoDraw = False
+85.0420 	EXP 	text_equation: height = np.float64(0.1)
+85.0420 	EXP 	text_equation: height = np.float64(0.1)
+85.0420 	EXP 	text_equation: height = np.float64(0.1)
+85.0420 	EXP 	text_equation: text = '13 * 2'
+85.0420 	EXP 	text_opt1: height = np.float64(0.05)
+85.0420 	EXP 	text_opt1: height = np.float64(0.05)
+85.0420 	EXP 	text_opt1: height = np.float64(0.05)
+85.0420 	EXP 	text_opt1: text = '1. 24'
+85.0420 	EXP 	text_opt2: height = np.float64(0.05)
+85.0420 	EXP 	text_opt2: height = np.float64(0.05)
+85.0420 	EXP 	text_opt2: height = np.float64(0.05)
+85.0420 	EXP 	text_opt2: text = '2. 23'
+85.0420 	EXP 	text_opt3: height = np.float64(0.05)
+85.0420 	EXP 	text_opt3: height = np.float64(0.05)
+85.0420 	EXP 	text_opt3: height = np.float64(0.05)
+85.0420 	EXP 	text_opt3: text = '3. 26'
+85.0420 	EXP 	text_equation: autoDraw = True
+85.0420 	EXP 	text_opt1: autoDraw = True
+85.0420 	EXP 	text_opt2: autoDraw = True
+85.0420 	EXP 	text_opt3: autoDraw = True
+86.6549 	EXP 	Device response: <KeyPress from None: t=86.65454750019126, value=3, duration=None>
+86.6560 	DATA 	Keypress: 3
+86.6630 	EXP 	text_equation: autoDraw = False
+86.6630 	EXP 	text_opt1: autoDraw = False
+86.6630 	EXP 	text_opt2: autoDraw = False
+86.6630 	EXP 	text_opt3: autoDraw = False
+86.6630 	EXP 	text_2: autoDraw = True
+86.8386 	EXP 	Device response: <KeyPress from None: t=86.65454750019126, value=3, duration=0.1755745999980718>
+88.6547 	EXP 	text_2: autoDraw = False
+88.6547 	EXP 	text_2: autoDraw = False
+88.6547 	EXP 	text_feedback: text = 'Correct!'
+88.6547 	EXP 	text_feedback: autoDraw = True
+91.6388 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+91.6463 	EXP 	text_feedback: autoDraw = False
+91.6463 	EXP 	text_feedback: autoDraw = False
+91.6463 	EXP 	text: autoDraw = True
+101.6340 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'math_eq': '31 + 10', 'CorrAns': np.int64(41), 'dstr1': np.int64(39), 'dstr2': np.int64(32), 'CorrAns_key': np.int64(3), 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+101.6428 	EXP 	text: autoDraw = False
+101.6428 	EXP 	text: autoDraw = False
+101.6428 	EXP 	text_equation: height = np.float64(0.1)
+101.6428 	EXP 	text_equation: height = np.float64(0.1)
+101.6428 	EXP 	text_equation: height = np.float64(0.1)
+101.6428 	EXP 	text_equation: text = '31 + 10'
+101.6428 	EXP 	text_opt1: height = np.float64(0.05)
+101.6428 	EXP 	text_opt1: height = np.float64(0.05)
+101.6428 	EXP 	text_opt1: height = np.float64(0.05)
+101.6428 	EXP 	text_opt1: text = '1. 39'
+101.6428 	EXP 	text_opt2: height = np.float64(0.05)
+101.6428 	EXP 	text_opt2: height = np.float64(0.05)
+101.6428 	EXP 	text_opt2: height = np.float64(0.05)
+101.6428 	EXP 	text_opt2: text = '2. 32'
+101.6428 	EXP 	text_opt3: height = np.float64(0.05)
+101.6428 	EXP 	text_opt3: height = np.float64(0.05)
+101.6428 	EXP 	text_opt3: height = np.float64(0.05)
+101.6428 	EXP 	text_opt3: text = '3. 41'
+101.6428 	EXP 	text_equation: autoDraw = True
+101.6428 	EXP 	text_opt1: autoDraw = True
+101.6428 	EXP 	text_opt2: autoDraw = True
+101.6428 	EXP 	text_opt3: autoDraw = True
+104.3550 	EXP 	Device response: <KeyPress from None: t=104.35030330019072, value=3, duration=None>
+104.3561 	DATA 	Keypress: 3
+104.3631 	EXP 	text_equation: autoDraw = False
+104.3631 	EXP 	text_opt1: autoDraw = False
+104.3631 	EXP 	text_opt2: autoDraw = False
+104.3631 	EXP 	text_opt3: autoDraw = False
+104.3631 	EXP 	text_2: autoDraw = True
+104.4969 	EXP 	Device response: <KeyPress from None: t=104.35030330019072, value=3, duration=0.14410769985988736>
+106.3550 	EXP 	text_2: autoDraw = False
+106.3550 	EXP 	text_2: autoDraw = False
+106.3550 	EXP 	text_feedback: text = 'Correct!'
+106.3550 	EXP 	text_feedback: autoDraw = True
+109.3421 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'math_eq': '27 - 14', 'CorrAns': np.int64(13), 'dstr1': np.int64(10), 'dstr2': np.int64(23), 'CorrAns_key': np.int64(1), 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+109.3524 	EXP 	text_feedback: autoDraw = False
+109.3524 	EXP 	text_feedback: autoDraw = False
+109.3524 	EXP 	text_equation: height = np.float64(0.1)
+109.3524 	EXP 	text_equation: height = np.float64(0.1)
+109.3524 	EXP 	text_equation: height = np.float64(0.1)
+109.3524 	EXP 	text_equation: text = '27 - 14'
+109.3524 	EXP 	text_opt1: height = np.float64(0.05)
+109.3524 	EXP 	text_opt1: height = np.float64(0.05)
+109.3524 	EXP 	text_opt1: height = np.float64(0.05)
+109.3524 	EXP 	text_opt1: text = '1. 13'
+109.3524 	EXP 	text_opt2: height = np.float64(0.05)
+109.3524 	EXP 	text_opt2: height = np.float64(0.05)
+109.3524 	EXP 	text_opt2: height = np.float64(0.05)
+109.3524 	EXP 	text_opt2: text = '2. 10'
+109.3524 	EXP 	text_opt3: height = np.float64(0.05)
+109.3524 	EXP 	text_opt3: height = np.float64(0.05)
+109.3524 	EXP 	text_opt3: height = np.float64(0.05)
+109.3524 	EXP 	text_opt3: text = '3. 23'
+109.3524 	EXP 	text_equation: autoDraw = True
+109.3524 	EXP 	text_opt1: autoDraw = True
+109.3524 	EXP 	text_opt2: autoDraw = True
+109.3524 	EXP 	text_opt3: autoDraw = True
+114.1642 	EXP 	Device response: <KeyPress from None: t=114.15818540006876, value=1, duration=None>
+114.1652 	DATA 	Keypress: 1
+114.1719 	EXP 	text_equation: autoDraw = False
+114.1719 	EXP 	text_opt1: autoDraw = False
+114.1719 	EXP 	text_opt2: autoDraw = False
+114.1719 	EXP 	text_opt3: autoDraw = False
+114.1719 	EXP 	text_2: autoDraw = True
+114.2554 	EXP 	Device response: <KeyPress from None: t=114.15818540006876, value=1, duration=0.09635360003449023>
+116.1638 	EXP 	text_2: autoDraw = False
+116.1638 	EXP 	text_2: autoDraw = False
+116.1638 	EXP 	text_feedback: text = 'Correct!'
+116.1638 	EXP 	text_feedback: autoDraw = True
+119.1506 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'math_eq': '27 + 18', 'CorrAns': np.int64(45), 'dstr1': np.int64(47), 'dstr2': np.int64(52), 'CorrAns_key': np.int64(1), 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+119.1593 	EXP 	text_feedback: autoDraw = False
+119.1593 	EXP 	text_feedback: autoDraw = False
+119.1593 	EXP 	text_equation: height = np.float64(0.1)
+119.1593 	EXP 	text_equation: height = np.float64(0.1)
+119.1593 	EXP 	text_equation: height = np.float64(0.1)
+119.1593 	EXP 	text_equation: text = '27 + 18'
+119.1593 	EXP 	text_opt1: height = np.float64(0.05)
+119.1593 	EXP 	text_opt1: height = np.float64(0.05)
+119.1593 	EXP 	text_opt1: height = np.float64(0.05)
+119.1593 	EXP 	text_opt1: text = '1. 45'
+119.1593 	EXP 	text_opt2: height = np.float64(0.05)
+119.1593 	EXP 	text_opt2: height = np.float64(0.05)
+119.1593 	EXP 	text_opt2: height = np.float64(0.05)
+119.1593 	EXP 	text_opt2: text = '2. 47'
+119.1593 	EXP 	text_opt3: height = np.float64(0.05)
+119.1593 	EXP 	text_opt3: height = np.float64(0.05)
+119.1593 	EXP 	text_opt3: height = np.float64(0.05)
+119.1593 	EXP 	text_opt3: text = '3. 52'
+119.1593 	EXP 	text_equation: autoDraw = True
+119.1593 	EXP 	text_opt1: autoDraw = True
+119.1593 	EXP 	text_opt2: autoDraw = True
+119.1593 	EXP 	text_opt3: autoDraw = True
+129.1557 	EXP 	text_equation: autoDraw = False
+129.1557 	EXP 	text_opt1: autoDraw = False
+129.1557 	EXP 	text_opt2: autoDraw = False
+129.1557 	EXP 	text_opt3: autoDraw = False
+129.1557 	EXP 	text_equation: autoDraw = False
+129.1557 	EXP 	text_opt1: autoDraw = False
+129.1557 	EXP 	text_opt2: autoDraw = False
+129.1557 	EXP 	text_opt3: autoDraw = False
+129.1557 	EXP 	text_2: autoDraw = True
+131.1470 	EXP 	text_2: autoDraw = False
+131.1470 	EXP 	text_2: autoDraw = False
+131.1470 	EXP 	text_feedback: height = np.float64(0.05)
+131.1470 	EXP 	text_feedback: height = np.float64(0.05)
+131.1470 	EXP 	text_feedback: height = np.float64(0.05)
+131.1470 	EXP 	text_feedback: text = 'Incorrect!'
+131.1470 	EXP 	text_feedback: autoDraw = True
+134.1348 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'math_eq': '37 + 18', 'CorrAns': np.int64(55), 'dstr1': np.int64(47), 'dstr2': np.int64(45), 'CorrAns_key': np.int64(2), 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+134.1435 	EXP 	text_feedback: autoDraw = False
+134.1435 	EXP 	text_feedback: autoDraw = False
+134.1435 	EXP 	text_equation: height = np.float64(0.1)
+134.1435 	EXP 	text_equation: height = np.float64(0.1)
+134.1435 	EXP 	text_equation: height = np.float64(0.1)
+134.1435 	EXP 	text_equation: text = '37 + 18'
+134.1435 	EXP 	text_opt1: height = np.float64(0.05)
+134.1435 	EXP 	text_opt1: height = np.float64(0.05)
+134.1435 	EXP 	text_opt1: height = np.float64(0.05)
+134.1435 	EXP 	text_opt1: text = '1. 47'
+134.1435 	EXP 	text_opt2: height = np.float64(0.05)
+134.1435 	EXP 	text_opt2: height = np.float64(0.05)
+134.1435 	EXP 	text_opt2: height = np.float64(0.05)
+134.1435 	EXP 	text_opt2: text = '2. 55'
+134.1435 	EXP 	text_opt3: height = np.float64(0.05)
+134.1435 	EXP 	text_opt3: height = np.float64(0.05)
+134.1435 	EXP 	text_opt3: height = np.float64(0.05)
+134.1435 	EXP 	text_opt3: text = '3. 45'
+134.1435 	EXP 	text_equation: autoDraw = True
+134.1435 	EXP 	text_opt1: autoDraw = True
+134.1435 	EXP 	text_opt2: autoDraw = True
+134.1435 	EXP 	text_opt3: autoDraw = True
+139.3144 	EXP 	Device response: <KeyPress from None: t=139.31019870005548, value=3, duration=None>
+139.3155 	DATA 	Keypress: 3
+139.3222 	EXP 	text_equation: autoDraw = False
+139.3222 	EXP 	text_opt1: autoDraw = False
+139.3222 	EXP 	text_opt2: autoDraw = False
+139.3222 	EXP 	text_opt3: autoDraw = False
+139.3222 	EXP 	text_2: autoDraw = True
+139.4143 	EXP 	Device response: <KeyPress from None: t=139.31019870005548, value=3, duration=0.0964194000698626>
+141.3139 	EXP 	text_2: autoDraw = False
+141.3139 	EXP 	text_2: autoDraw = False
+141.3139 	EXP 	text_feedback: text = 'Incorrect!'
+141.3139 	EXP 	text_feedback: autoDraw = True
+144.3015 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'math_eq': '112 / 2', 'CorrAns': np.int64(56), 'dstr1': np.int64(52), 'dstr2': np.int64(46), 'CorrAns_key': np.int64(1), 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+144.3102 	EXP 	text_feedback: autoDraw = False
+144.3102 	EXP 	text_feedback: autoDraw = False
+144.3102 	EXP 	text_equation: height = np.float64(0.1)
+144.3102 	EXP 	text_equation: height = np.float64(0.1)
+144.3102 	EXP 	text_equation: height = np.float64(0.1)
+144.3102 	EXP 	text_equation: text = '112 / 2'
+144.3102 	EXP 	text_opt1: height = np.float64(0.05)
+144.3102 	EXP 	text_opt1: height = np.float64(0.05)
+144.3102 	EXP 	text_opt1: height = np.float64(0.05)
+144.3102 	EXP 	text_opt1: text = '1. 56'
+144.3102 	EXP 	text_opt2: height = np.float64(0.05)
+144.3102 	EXP 	text_opt2: height = np.float64(0.05)
+144.3102 	EXP 	text_opt2: height = np.float64(0.05)
+144.3102 	EXP 	text_opt2: text = '2. 52'
+144.3102 	EXP 	text_opt3: height = np.float64(0.05)
+144.3102 	EXP 	text_opt3: height = np.float64(0.05)
+144.3102 	EXP 	text_opt3: height = np.float64(0.05)
+144.3102 	EXP 	text_opt3: text = '3. 46'
+144.3102 	EXP 	text_equation: autoDraw = True
+144.3102 	EXP 	text_opt1: autoDraw = True
+144.3102 	EXP 	text_opt2: autoDraw = True
+144.3102 	EXP 	text_opt3: autoDraw = True
+147.6065 	EXP 	Device response: <KeyPress from None: t=147.59842719999142, value=1, duration=None>
+147.6075 	DATA 	Keypress: 1
+147.6143 	EXP 	text_equation: autoDraw = False
+147.6143 	EXP 	text_opt1: autoDraw = False
+147.6143 	EXP 	text_opt2: autoDraw = False
+147.6143 	EXP 	text_opt3: autoDraw = False
+147.6143 	EXP 	text_2: autoDraw = True
+147.7145 	EXP 	Device response: <KeyPress from None: t=147.59842719999142, value=1, duration=0.11221410008147359>
+149.6057 	EXP 	text_2: autoDraw = False
+149.6057 	EXP 	text_2: autoDraw = False
+149.6057 	EXP 	text_feedback: height = np.float64(0.05)
+149.6057 	EXP 	text_feedback: height = np.float64(0.05)
+149.6057 	EXP 	text_feedback: height = np.float64(0.05)
+149.6057 	EXP 	text_feedback: text = 'Correct!'
+149.6057 	EXP 	text_feedback: autoDraw = True
+152.5932 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'math_eq': '110 / 2', 'CorrAns': np.int64(55), 'dstr1': np.int64(59), 'dstr2': np.int64(57), 'CorrAns_key': np.int64(2), 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+152.6015 	EXP 	text_feedback: autoDraw = False
+152.6015 	EXP 	text_feedback: autoDraw = False
+152.6015 	EXP 	text_equation: height = np.float64(0.1)
+152.6015 	EXP 	text_equation: height = np.float64(0.1)
+152.6015 	EXP 	text_equation: height = np.float64(0.1)
+152.6015 	EXP 	text_equation: text = '110 / 2'
+152.6015 	EXP 	text_opt1: height = np.float64(0.05)
+152.6015 	EXP 	text_opt1: height = np.float64(0.05)
+152.6015 	EXP 	text_opt1: height = np.float64(0.05)
+152.6015 	EXP 	text_opt1: text = '1. 59'
+152.6015 	EXP 	text_opt2: height = np.float64(0.05)
+152.6015 	EXP 	text_opt2: height = np.float64(0.05)
+152.6015 	EXP 	text_opt2: height = np.float64(0.05)
+152.6015 	EXP 	text_opt2: text = '2. 55'
+152.6015 	EXP 	text_opt3: height = np.float64(0.05)
+152.6015 	EXP 	text_opt3: height = np.float64(0.05)
+152.6015 	EXP 	text_opt3: height = np.float64(0.05)
+152.6015 	EXP 	text_opt3: text = '3. 57'
+152.6015 	EXP 	text_equation: autoDraw = True
+152.6015 	EXP 	text_opt1: autoDraw = True
+152.6015 	EXP 	text_opt2: autoDraw = True
+152.6015 	EXP 	text_opt3: autoDraw = True
+154.8478 	EXP 	Device response: <KeyPress from None: t=154.84644940006547, value=2, duration=None>
+154.8488 	DATA 	Keypress: 2
+154.8558 	EXP 	text_equation: autoDraw = False
+154.8558 	EXP 	text_opt1: autoDraw = False
+154.8558 	EXP 	text_opt2: autoDraw = False
+154.8558 	EXP 	text_opt3: autoDraw = False
+154.8558 	EXP 	text_2: autoDraw = True
+154.9148 	EXP 	Device response: <KeyPress from None: t=154.84644940006547, value=2, duration=0.06421250011771917>
+156.8477 	EXP 	text_2: autoDraw = False
+156.8477 	EXP 	text_2: autoDraw = False
+156.8477 	EXP 	text_feedback: text = 'Correct!'
+156.8477 	EXP 	text_feedback: autoDraw = True
+159.8346 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'math_eq': '22 + 14', 'CorrAns': np.int64(36), 'dstr1': np.int64(46), 'dstr2': np.int64(38), 'CorrAns_key': np.int64(3), 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+159.8431 	EXP 	text_feedback: autoDraw = False
+159.8431 	EXP 	text_feedback: autoDraw = False
+159.8431 	EXP 	text_equation: height = np.float64(0.1)
+159.8431 	EXP 	text_equation: height = np.float64(0.1)
+159.8431 	EXP 	text_equation: height = np.float64(0.1)
+159.8431 	EXP 	text_equation: text = '22 + 14'
+159.8431 	EXP 	text_opt1: height = np.float64(0.05)
+159.8431 	EXP 	text_opt1: height = np.float64(0.05)
+159.8431 	EXP 	text_opt1: height = np.float64(0.05)
+159.8431 	EXP 	text_opt1: text = '1. 46'
+159.8431 	EXP 	text_opt2: height = np.float64(0.05)
+159.8431 	EXP 	text_opt2: height = np.float64(0.05)
+159.8431 	EXP 	text_opt2: height = np.float64(0.05)
+159.8431 	EXP 	text_opt2: text = '2. 38'
+159.8431 	EXP 	text_opt3: height = np.float64(0.05)
+159.8431 	EXP 	text_opt3: height = np.float64(0.05)
+159.8431 	EXP 	text_opt3: height = np.float64(0.05)
+159.8431 	EXP 	text_opt3: text = '3. 36'
+159.8431 	EXP 	text_equation: autoDraw = True
+159.8431 	EXP 	text_opt1: autoDraw = True
+159.8431 	EXP 	text_opt2: autoDraw = True
+159.8431 	EXP 	text_opt3: autoDraw = True
+162.1315 	EXP 	Device response: <KeyPress from None: t=162.12679490004666, value=3, duration=None>
+162.1325 	DATA 	Keypress: 3
+162.1393 	EXP 	text_equation: autoDraw = False
+162.1393 	EXP 	text_opt1: autoDraw = False
+162.1393 	EXP 	text_opt2: autoDraw = False
+162.1393 	EXP 	text_opt3: autoDraw = False
+162.1393 	EXP 	text_2: autoDraw = True
+162.2232 	EXP 	Device response: <KeyPress from None: t=162.12679490004666, value=3, duration=0.09529409999959171>
+164.1313 	EXP 	text_2: autoDraw = False
+164.1313 	EXP 	text_2: autoDraw = False
+164.1313 	EXP 	text_feedback: text = 'Correct!'
+164.1313 	EXP 	text_feedback: autoDraw = True
+167.1183 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'math_eq': '32 - 9', 'CorrAns': np.int64(23), 'dstr1': np.int64(29), 'dstr2': np.int64(21), 'CorrAns_key': np.int64(3), 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+167.1264 	EXP 	text_feedback: autoDraw = False
+167.1264 	EXP 	text_feedback: autoDraw = False
+167.1264 	EXP 	text_equation: height = np.float64(0.1)
+167.1264 	EXP 	text_equation: height = np.float64(0.1)
+167.1264 	EXP 	text_equation: height = np.float64(0.1)
+167.1264 	EXP 	text_equation: text = '32 - 9'
+167.1264 	EXP 	text_opt1: height = np.float64(0.05)
+167.1264 	EXP 	text_opt1: height = np.float64(0.05)
+167.1264 	EXP 	text_opt1: height = np.float64(0.05)
+167.1264 	EXP 	text_opt1: text = '1. 29'
+167.1264 	EXP 	text_opt2: height = np.float64(0.05)
+167.1264 	EXP 	text_opt2: height = np.float64(0.05)
+167.1264 	EXP 	text_opt2: height = np.float64(0.05)
+167.1264 	EXP 	text_opt2: text = '2. 21'
+167.1264 	EXP 	text_opt3: height = np.float64(0.05)
+167.1264 	EXP 	text_opt3: height = np.float64(0.05)
+167.1264 	EXP 	text_opt3: height = np.float64(0.05)
+167.1264 	EXP 	text_opt3: text = '3. 23'
+167.1264 	EXP 	text_equation: autoDraw = True
+167.1264 	EXP 	text_opt1: autoDraw = True
+167.1264 	EXP 	text_opt2: autoDraw = True
+167.1264 	EXP 	text_opt3: autoDraw = True
+170.1480 	EXP 	Device response: <KeyPress from None: t=170.14264500001445, value=3, duration=None>
+170.1490 	DATA 	Keypress: 3
+170.1559 	EXP 	text_equation: autoDraw = False
+170.1559 	EXP 	text_opt1: autoDraw = False
+170.1559 	EXP 	text_opt2: autoDraw = False
+170.1559 	EXP 	text_opt3: autoDraw = False
+170.1559 	EXP 	text_2: autoDraw = True
+170.2397 	EXP 	Device response: <KeyPress from None: t=170.14264500001445, value=3, duration=0.09593090019188821>
+172.1476 	EXP 	text_2: autoDraw = False
+172.1476 	EXP 	text_2: autoDraw = False
+172.1476 	EXP 	text_feedback: text = 'Correct!'
+172.1476 	EXP 	text_feedback: autoDraw = True
+175.1349 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'math_eq': '18 * 3', 'CorrAns': np.int64(54), 'dstr1': np.int64(52), 'dstr2': np.int64(44), 'CorrAns_key': np.int64(3), 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+175.1434 	EXP 	text_feedback: autoDraw = False
+175.1434 	EXP 	text_feedback: autoDraw = False
+175.1434 	EXP 	text_equation: height = np.float64(0.1)
+175.1434 	EXP 	text_equation: height = np.float64(0.1)
+175.1434 	EXP 	text_equation: height = np.float64(0.1)
+175.1434 	EXP 	text_equation: text = '18 * 3'
+175.1434 	EXP 	text_opt1: height = np.float64(0.05)
+175.1434 	EXP 	text_opt1: height = np.float64(0.05)
+175.1434 	EXP 	text_opt1: height = np.float64(0.05)
+175.1434 	EXP 	text_opt1: text = '1. 52'
+175.1434 	EXP 	text_opt2: height = np.float64(0.05)
+175.1434 	EXP 	text_opt2: height = np.float64(0.05)
+175.1434 	EXP 	text_opt2: height = np.float64(0.05)
+175.1434 	EXP 	text_opt2: text = '2. 44'
+175.1434 	EXP 	text_opt3: height = np.float64(0.05)
+175.1434 	EXP 	text_opt3: height = np.float64(0.05)
+175.1434 	EXP 	text_opt3: height = np.float64(0.05)
+175.1434 	EXP 	text_opt3: text = '3. 54'
+175.1434 	EXP 	text_equation: autoDraw = True
+175.1434 	EXP 	text_opt1: autoDraw = True
+175.1434 	EXP 	text_opt2: autoDraw = True
+175.1434 	EXP 	text_opt3: autoDraw = True
+178.0148 	EXP 	Device response: <KeyPress from None: t=178.01419120002538, value=3, duration=None>
+178.0158 	DATA 	Keypress: 3
+178.0226 	EXP 	text_equation: autoDraw = False
+178.0226 	EXP 	text_opt1: autoDraw = False
+178.0226 	EXP 	text_opt2: autoDraw = False
+178.0226 	EXP 	text_opt3: autoDraw = False
+178.0226 	EXP 	text_2: autoDraw = True
+178.1315 	EXP 	Device response: <KeyPress from None: t=178.01419120002538, value=3, duration=0.11212940001860261>
+180.0142 	EXP 	text_2: autoDraw = False
+180.0142 	EXP 	text_2: autoDraw = False
+180.0142 	EXP 	text_feedback: text = 'Correct!'
+180.0142 	EXP 	text_feedback: autoDraw = True
+183.0020 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'math_eq': '33 - 6', 'CorrAns': np.int64(27), 'dstr1': np.int64(29), 'dstr2': np.int64(26), 'CorrAns_key': np.int64(2), 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+183.0106 	EXP 	text_feedback: autoDraw = False
+183.0106 	EXP 	text_feedback: autoDraw = False
+183.0106 	EXP 	text_equation: height = np.float64(0.1)
+183.0106 	EXP 	text_equation: height = np.float64(0.1)
+183.0106 	EXP 	text_equation: height = np.float64(0.1)
+183.0106 	EXP 	text_equation: text = '33 - 6'
+183.0106 	EXP 	text_opt1: height = np.float64(0.05)
+183.0106 	EXP 	text_opt1: height = np.float64(0.05)
+183.0106 	EXP 	text_opt1: height = np.float64(0.05)
+183.0106 	EXP 	text_opt1: text = '1. 29'
+183.0106 	EXP 	text_opt2: height = np.float64(0.05)
+183.0106 	EXP 	text_opt2: height = np.float64(0.05)
+183.0106 	EXP 	text_opt2: height = np.float64(0.05)
+183.0106 	EXP 	text_opt2: text = '2. 27'
+183.0106 	EXP 	text_opt3: height = np.float64(0.05)
+183.0106 	EXP 	text_opt3: height = np.float64(0.05)
+183.0106 	EXP 	text_opt3: height = np.float64(0.05)
+183.0106 	EXP 	text_opt3: text = '3. 26'
+183.0106 	EXP 	text_equation: autoDraw = True
+183.0106 	EXP 	text_opt1: autoDraw = True
+183.0106 	EXP 	text_opt2: autoDraw = True
+183.0106 	EXP 	text_opt3: autoDraw = True
+187.5565 	EXP 	Device response: <KeyPress from None: t=187.5504426001571, value=3, duration=None>
+187.5575 	DATA 	Keypress: 3
+187.5648 	EXP 	text_equation: autoDraw = False
+187.5648 	EXP 	text_opt1: autoDraw = False
+187.5648 	EXP 	text_opt2: autoDraw = False
+187.5648 	EXP 	text_opt3: autoDraw = False
+187.5648 	EXP 	text_2: autoDraw = True
+187.6653 	EXP 	Device response: <KeyPress from None: t=187.5504426001571, value=3, duration=0.11229710001498461>
+189.5562 	EXP 	text_2: autoDraw = False
+189.5562 	EXP 	text_2: autoDraw = False
+189.5562 	EXP 	text_feedback: height = np.float64(0.05)
+189.5562 	EXP 	text_feedback: height = np.float64(0.05)
+189.5562 	EXP 	text_feedback: height = np.float64(0.05)
+189.5562 	EXP 	text_feedback: text = 'Incorrect!'
+189.5562 	EXP 	text_feedback: autoDraw = True
+192.5404 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+192.5478 	EXP 	text_feedback: autoDraw = False
+192.5478 	EXP 	text_feedback: autoDraw = False
+192.5478 	EXP 	text: autoDraw = True
+202.5357 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'math_eq': '19 * 3', 'CorrAns': np.int64(57), 'dstr1': np.int64(50), 'dstr2': np.int64(53), 'CorrAns_key': np.int64(3), 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+202.5442 	EXP 	text: autoDraw = False
+202.5442 	EXP 	text: autoDraw = False
+202.5442 	EXP 	text_equation: height = np.float64(0.1)
+202.5442 	EXP 	text_equation: height = np.float64(0.1)
+202.5442 	EXP 	text_equation: height = np.float64(0.1)
+202.5442 	EXP 	text_equation: text = '19 * 3'
+202.5442 	EXP 	text_opt1: height = np.float64(0.05)
+202.5442 	EXP 	text_opt1: height = np.float64(0.05)
+202.5442 	EXP 	text_opt1: height = np.float64(0.05)
+202.5442 	EXP 	text_opt1: text = '1. 50'
+202.5442 	EXP 	text_opt2: height = np.float64(0.05)
+202.5442 	EXP 	text_opt2: height = np.float64(0.05)
+202.5442 	EXP 	text_opt2: height = np.float64(0.05)
+202.5442 	EXP 	text_opt2: text = '2. 53'
+202.5442 	EXP 	text_opt3: height = np.float64(0.05)
+202.5442 	EXP 	text_opt3: height = np.float64(0.05)
+202.5442 	EXP 	text_opt3: height = np.float64(0.05)
+202.5442 	EXP 	text_opt3: text = '3. 57'
+202.5442 	EXP 	text_equation: autoDraw = True
+202.5442 	EXP 	text_opt1: autoDraw = True
+202.5442 	EXP 	text_opt2: autoDraw = True
+202.5442 	EXP 	text_opt3: autoDraw = True
+204.9822 	EXP 	Device response: <KeyPress from None: t=204.97456080000848, value=3, duration=None>
+204.9833 	DATA 	Keypress: 3
+204.9902 	EXP 	text_equation: autoDraw = False
+204.9902 	EXP 	text_opt1: autoDraw = False
+204.9902 	EXP 	text_opt2: autoDraw = False
+204.9902 	EXP 	text_opt3: autoDraw = False
+204.9902 	EXP 	text_2: autoDraw = True
+205.1406 	EXP 	Device response: <KeyPress from None: t=204.97456080000848, value=3, duration=0.15968160005286336>
+206.9818 	EXP 	text_2: autoDraw = False
+206.9818 	EXP 	text_2: autoDraw = False
+206.9818 	EXP 	text_feedback: height = np.float64(0.05)
+206.9818 	EXP 	text_feedback: height = np.float64(0.05)
+206.9818 	EXP 	text_feedback: height = np.float64(0.05)
+206.9818 	EXP 	text_feedback: text = 'Correct!'
+206.9818 	EXP 	text_feedback: autoDraw = True
+209.9693 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'math_eq': '140 / 4', 'CorrAns': np.int64(45), 'dstr1': np.int64(35), 'dstr2': np.int64(42), 'CorrAns_key': np.int64(1), 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+209.9782 	EXP 	text_feedback: autoDraw = False
+209.9782 	EXP 	text_feedback: autoDraw = False
+209.9782 	EXP 	text_equation: height = np.float64(0.1)
+209.9782 	EXP 	text_equation: height = np.float64(0.1)
+209.9782 	EXP 	text_equation: height = np.float64(0.1)
+209.9782 	EXP 	text_equation: text = '140 / 4'
+209.9782 	EXP 	text_opt1: height = np.float64(0.05)
+209.9782 	EXP 	text_opt1: height = np.float64(0.05)
+209.9782 	EXP 	text_opt1: height = np.float64(0.05)
+209.9782 	EXP 	text_opt1: text = '1. 45'
+209.9782 	EXP 	text_opt2: height = np.float64(0.05)
+209.9782 	EXP 	text_opt2: height = np.float64(0.05)
+209.9782 	EXP 	text_opt2: height = np.float64(0.05)
+209.9782 	EXP 	text_opt2: text = '2. 35'
+209.9782 	EXP 	text_opt3: height = np.float64(0.05)
+209.9782 	EXP 	text_opt3: height = np.float64(0.05)
+209.9782 	EXP 	text_opt3: height = np.float64(0.05)
+209.9782 	EXP 	text_opt3: text = '3. 42'
+209.9782 	EXP 	text_equation: autoDraw = True
+209.9782 	EXP 	text_opt1: autoDraw = True
+209.9782 	EXP 	text_opt2: autoDraw = True
+209.9782 	EXP 	text_opt3: autoDraw = True
+215.2824 	EXP 	Device response: <KeyPress from None: t=215.27848490001634, value=2, duration=None>
+215.2834 	DATA 	Keypress: 2
+215.2905 	EXP 	text_equation: autoDraw = False
+215.2905 	EXP 	text_opt1: autoDraw = False
+215.2905 	EXP 	text_opt2: autoDraw = False
+215.2905 	EXP 	text_opt3: autoDraw = False
+215.2905 	EXP 	text_2: autoDraw = True
+215.3657 	EXP 	Device response: <KeyPress from None: t=215.27848490001634, value=2, duration=0.08016979997046292>
+217.2817 	EXP 	text_2: autoDraw = False
+217.2817 	EXP 	text_2: autoDraw = False
+217.2817 	EXP 	text_feedback: height = np.float64(0.05)
+217.2817 	EXP 	text_feedback: height = np.float64(0.05)
+217.2817 	EXP 	text_feedback: height = np.float64(0.05)
+217.2817 	EXP 	text_feedback: text = 'Incorrect!'
+217.2817 	EXP 	text_feedback: autoDraw = True
+220.2695 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'math_eq': '23 + 18', 'CorrAns': np.int64(41), 'dstr1': np.int64(39), 'dstr2': np.int64(33), 'CorrAns_key': np.int64(1), 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+220.2781 	EXP 	text_feedback: autoDraw = False
+220.2781 	EXP 	text_feedback: autoDraw = False
+220.2781 	EXP 	text_equation: height = np.float64(0.1)
+220.2781 	EXP 	text_equation: height = np.float64(0.1)
+220.2781 	EXP 	text_equation: height = np.float64(0.1)
+220.2781 	EXP 	text_equation: text = '23 + 18'
+220.2781 	EXP 	text_opt1: height = np.float64(0.05)
+220.2781 	EXP 	text_opt1: height = np.float64(0.05)
+220.2781 	EXP 	text_opt1: height = np.float64(0.05)
+220.2781 	EXP 	text_opt1: text = '1. 41'
+220.2781 	EXP 	text_opt2: height = np.float64(0.05)
+220.2781 	EXP 	text_opt2: height = np.float64(0.05)
+220.2781 	EXP 	text_opt2: height = np.float64(0.05)
+220.2781 	EXP 	text_opt2: text = '2. 39'
+220.2781 	EXP 	text_opt3: height = np.float64(0.05)
+220.2781 	EXP 	text_opt3: height = np.float64(0.05)
+220.2781 	EXP 	text_opt3: height = np.float64(0.05)
+220.2781 	EXP 	text_opt3: text = '3. 33'
+220.2781 	EXP 	text_equation: autoDraw = True
+220.2781 	EXP 	text_opt1: autoDraw = True
+220.2781 	EXP 	text_opt2: autoDraw = True
+220.2781 	EXP 	text_opt3: autoDraw = True
+224.4656 	EXP 	Device response: <KeyPress from None: t=224.46219380013645, value=1, duration=None>
+224.4666 	DATA 	Keypress: 1
+224.4736 	EXP 	text_equation: autoDraw = False
+224.4736 	EXP 	text_opt1: autoDraw = False
+224.4736 	EXP 	text_opt2: autoDraw = False
+224.4736 	EXP 	text_opt3: autoDraw = False
+224.4736 	EXP 	text_2: autoDraw = True
+224.5324 	EXP 	Device response: <KeyPress from None: t=224.46219380013645, value=1, duration=0.06419830000959337>
+226.4653 	EXP 	text_2: autoDraw = False
+226.4653 	EXP 	text_2: autoDraw = False
+226.4653 	EXP 	text_feedback: height = np.float64(0.05)
+226.4653 	EXP 	text_feedback: height = np.float64(0.05)
+226.4653 	EXP 	text_feedback: height = np.float64(0.05)
+226.4653 	EXP 	text_feedback: text = 'Correct!'
+226.4653 	EXP 	text_feedback: autoDraw = True
+229.4531 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'math_eq': '128 / 2', 'CorrAns': np.int64(64), 'dstr1': np.int64(60), 'dstr2': np.int64(62), 'CorrAns_key': np.int64(3), 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+229.4624 	EXP 	text_feedback: autoDraw = False
+229.4624 	EXP 	text_feedback: autoDraw = False
+229.4624 	EXP 	text_equation: height = np.float64(0.1)
+229.4624 	EXP 	text_equation: height = np.float64(0.1)
+229.4624 	EXP 	text_equation: height = np.float64(0.1)
+229.4624 	EXP 	text_equation: text = '128 / 2'
+229.4624 	EXP 	text_opt1: height = np.float64(0.05)
+229.4624 	EXP 	text_opt1: height = np.float64(0.05)
+229.4624 	EXP 	text_opt1: height = np.float64(0.05)
+229.4624 	EXP 	text_opt1: text = '1. 60'
+229.4624 	EXP 	text_opt2: height = np.float64(0.05)
+229.4624 	EXP 	text_opt2: height = np.float64(0.05)
+229.4624 	EXP 	text_opt2: height = np.float64(0.05)
+229.4624 	EXP 	text_opt2: text = '2. 62'
+229.4624 	EXP 	text_opt3: height = np.float64(0.05)
+229.4624 	EXP 	text_opt3: height = np.float64(0.05)
+229.4624 	EXP 	text_opt3: height = np.float64(0.05)
+229.4624 	EXP 	text_opt3: text = '3. 64'
+229.4624 	EXP 	text_equation: autoDraw = True
+229.4624 	EXP 	text_opt1: autoDraw = True
+229.4624 	EXP 	text_opt2: autoDraw = True
+229.4624 	EXP 	text_opt3: autoDraw = True
+234.1162 	EXP 	Device response: <KeyPress from None: t=234.11078079999425, value=3, duration=None>
+234.1172 	DATA 	Keypress: 3
+234.1238 	EXP 	text_equation: autoDraw = False
+234.1238 	EXP 	text_opt1: autoDraw = False
+234.1238 	EXP 	text_opt2: autoDraw = False
+234.1238 	EXP 	text_opt3: autoDraw = False
+234.1238 	EXP 	text_2: autoDraw = True
+234.2244 	EXP 	Device response: <KeyPress from None: t=234.11078079999425, value=3, duration=0.11134550021961331>
+236.1154 	EXP 	text_2: autoDraw = False
+236.1154 	EXP 	text_2: autoDraw = False
+236.1154 	EXP 	text_feedback: text = 'Correct!'
+236.1154 	EXP 	text_feedback: autoDraw = True
+239.1033 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'math_eq': '39 - 11', 'CorrAns': np.int64(28), 'dstr1': np.int64(26), 'dstr2': np.int64(27), 'CorrAns_key': np.int64(2), 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+239.1119 	EXP 	text_feedback: autoDraw = False
+239.1119 	EXP 	text_feedback: autoDraw = False
+239.1119 	EXP 	text_equation: height = np.float64(0.1)
+239.1119 	EXP 	text_equation: height = np.float64(0.1)
+239.1119 	EXP 	text_equation: height = np.float64(0.1)
+239.1119 	EXP 	text_equation: text = '39 - 11'
+239.1119 	EXP 	text_opt1: height = np.float64(0.05)
+239.1119 	EXP 	text_opt1: height = np.float64(0.05)
+239.1119 	EXP 	text_opt1: height = np.float64(0.05)
+239.1119 	EXP 	text_opt1: text = '1. 26'
+239.1119 	EXP 	text_opt2: height = np.float64(0.05)
+239.1119 	EXP 	text_opt2: height = np.float64(0.05)
+239.1119 	EXP 	text_opt2: height = np.float64(0.05)
+239.1119 	EXP 	text_opt2: text = '2. 28'
+239.1119 	EXP 	text_opt3: height = np.float64(0.05)
+239.1119 	EXP 	text_opt3: height = np.float64(0.05)
+239.1119 	EXP 	text_opt3: height = np.float64(0.05)
+239.1119 	EXP 	text_opt3: text = '3. 27'
+239.1119 	EXP 	text_equation: autoDraw = True
+239.1119 	EXP 	text_opt1: autoDraw = True
+239.1119 	EXP 	text_opt2: autoDraw = True
+239.1119 	EXP 	text_opt3: autoDraw = True
+243.0748 	EXP 	Device response: <KeyPress from None: t=243.07032270007767, value=2, duration=None>
+243.0758 	DATA 	Keypress: 2
+243.0827 	EXP 	text_equation: autoDraw = False
+243.0827 	EXP 	text_opt1: autoDraw = False
+243.0827 	EXP 	text_opt2: autoDraw = False
+243.0827 	EXP 	text_opt3: autoDraw = False
+243.0827 	EXP 	text_2: autoDraw = True
+243.1995 	EXP 	Device response: <KeyPress from None: t=243.07032270007767, value=2, duration=0.12804370000958443>
+245.0741 	EXP 	text_2: autoDraw = False
+245.0741 	EXP 	text_2: autoDraw = False
+245.0741 	EXP 	text_feedback: text = 'Correct!'
+245.0741 	EXP 	text_feedback: autoDraw = True
+248.0618 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'math_eq': '23 + 9', 'CorrAns': np.int64(32), 'dstr1': np.int64(31), 'dstr2': np.int64(29), 'CorrAns_key': np.int64(1), 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+248.0706 	EXP 	text_feedback: autoDraw = False
+248.0706 	EXP 	text_feedback: autoDraw = False
+248.0706 	EXP 	text_equation: height = np.float64(0.1)
+248.0706 	EXP 	text_equation: height = np.float64(0.1)
+248.0706 	EXP 	text_equation: height = np.float64(0.1)
+248.0706 	EXP 	text_equation: text = '23 + 9'
+248.0706 	EXP 	text_opt1: height = np.float64(0.05)
+248.0706 	EXP 	text_opt1: height = np.float64(0.05)
+248.0706 	EXP 	text_opt1: height = np.float64(0.05)
+248.0706 	EXP 	text_opt1: text = '1. 32'
+248.0706 	EXP 	text_opt2: height = np.float64(0.05)
+248.0706 	EXP 	text_opt2: height = np.float64(0.05)
+248.0706 	EXP 	text_opt2: height = np.float64(0.05)
+248.0706 	EXP 	text_opt2: text = '2. 31'
+248.0706 	EXP 	text_opt3: height = np.float64(0.05)
+248.0706 	EXP 	text_opt3: height = np.float64(0.05)
+248.0706 	EXP 	text_opt3: height = np.float64(0.05)
+248.0706 	EXP 	text_opt3: text = '3. 29'
+248.0706 	EXP 	text_equation: autoDraw = True
+248.0706 	EXP 	text_opt1: autoDraw = True
+248.0706 	EXP 	text_opt2: autoDraw = True
+248.0706 	EXP 	text_opt3: autoDraw = True
+251.5245 	EXP 	Device response: <KeyPress from None: t=251.5188335001003, value=1, duration=None>
+251.5255 	DATA 	Keypress: 1
+251.5325 	EXP 	text_equation: autoDraw = False
+251.5325 	EXP 	text_opt1: autoDraw = False
+251.5325 	EXP 	text_opt2: autoDraw = False
+251.5325 	EXP 	text_opt3: autoDraw = False
+251.5325 	EXP 	text_2: autoDraw = True
+251.6330 	EXP 	Device response: <KeyPress from None: t=251.5188335001003, value=1, duration=0.11149240005761385>
+253.5241 	EXP 	text_2: autoDraw = False
+253.5241 	EXP 	text_2: autoDraw = False
+253.5241 	EXP 	text_feedback: text = 'Correct!'
+253.5241 	EXP 	text_feedback: autoDraw = True
+256.5116 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'math_eq': '142 / 2', 'CorrAns': np.int64(71), 'dstr1': np.int64(72), 'dstr2': np.int64(74), 'CorrAns_key': np.int64(1), 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+256.5202 	EXP 	text_feedback: autoDraw = False
+256.5202 	EXP 	text_feedback: autoDraw = False
+256.5202 	EXP 	text_equation: height = np.float64(0.1)
+256.5202 	EXP 	text_equation: height = np.float64(0.1)
+256.5202 	EXP 	text_equation: height = np.float64(0.1)
+256.5202 	EXP 	text_equation: text = '142 / 2'
+256.5202 	EXP 	text_opt1: height = np.float64(0.05)
+256.5202 	EXP 	text_opt1: height = np.float64(0.05)
+256.5202 	EXP 	text_opt1: height = np.float64(0.05)
+256.5202 	EXP 	text_opt1: text = '1. 71'
+256.5202 	EXP 	text_opt2: height = np.float64(0.05)
+256.5202 	EXP 	text_opt2: height = np.float64(0.05)
+256.5202 	EXP 	text_opt2: height = np.float64(0.05)
+256.5202 	EXP 	text_opt2: text = '2. 72'
+256.5202 	EXP 	text_opt3: height = np.float64(0.05)
+256.5202 	EXP 	text_opt3: height = np.float64(0.05)
+256.5202 	EXP 	text_opt3: height = np.float64(0.05)
+256.5202 	EXP 	text_opt3: text = '3. 74'
+256.5202 	EXP 	text_equation: autoDraw = True
+256.5202 	EXP 	text_opt1: autoDraw = True
+256.5202 	EXP 	text_opt2: autoDraw = True
+256.5202 	EXP 	text_opt3: autoDraw = True
+262.3832 	EXP 	Device response: <KeyPress from None: t=262.3822477001231, value=2, duration=None>
+262.3844 	DATA 	Keypress: 2
+262.3907 	EXP 	text_equation: autoDraw = False
+262.3907 	EXP 	text_opt1: autoDraw = False
+262.3907 	EXP 	text_opt2: autoDraw = False
+262.3907 	EXP 	text_opt3: autoDraw = False
+262.3907 	EXP 	text_2: autoDraw = True
+262.5502 	EXP 	Device response: <KeyPress from None: t=262.3822477001231, value=2, duration=0.16069609997794032>
+264.3828 	EXP 	text_2: autoDraw = False
+264.3828 	EXP 	text_2: autoDraw = False
+264.3828 	EXP 	text_feedback: height = np.float64(0.05)
+264.3828 	EXP 	text_feedback: height = np.float64(0.05)
+264.3828 	EXP 	text_feedback: height = np.float64(0.05)
+264.3828 	EXP 	text_feedback: text = 'Incorrect!'
+264.3828 	EXP 	text_feedback: autoDraw = True
+267.3703 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'math_eq': '14 * 3', 'CorrAns': np.int64(42), 'dstr1': np.int64(38), 'dstr2': np.int64(40), 'CorrAns_key': np.int64(2), 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+267.3788 	EXP 	text_feedback: autoDraw = False
+267.3788 	EXP 	text_feedback: autoDraw = False
+267.3788 	EXP 	text_equation: height = np.float64(0.1)
+267.3788 	EXP 	text_equation: height = np.float64(0.1)
+267.3788 	EXP 	text_equation: height = np.float64(0.1)
+267.3788 	EXP 	text_equation: text = '14 * 3'
+267.3788 	EXP 	text_opt1: height = np.float64(0.05)
+267.3788 	EXP 	text_opt1: height = np.float64(0.05)
+267.3788 	EXP 	text_opt1: height = np.float64(0.05)
+267.3788 	EXP 	text_opt1: text = '1. 38'
+267.3788 	EXP 	text_opt2: height = np.float64(0.05)
+267.3788 	EXP 	text_opt2: height = np.float64(0.05)
+267.3788 	EXP 	text_opt2: height = np.float64(0.05)
+267.3788 	EXP 	text_opt2: text = '2. 42'
+267.3788 	EXP 	text_opt3: height = np.float64(0.05)
+267.3788 	EXP 	text_opt3: height = np.float64(0.05)
+267.3788 	EXP 	text_opt3: height = np.float64(0.05)
+267.3788 	EXP 	text_opt3: text = '3. 40'
+267.3788 	EXP 	text_equation: autoDraw = True
+267.3788 	EXP 	text_opt1: autoDraw = True
+267.3788 	EXP 	text_opt2: autoDraw = True
+267.3788 	EXP 	text_opt3: autoDraw = True
+272.1428 	DATA 	Keypress: 2
+272.1502 	EXP 	Device response: <KeyPress from None: t=272.1425125000533, value=2, duration=None>
+272.1577 	EXP 	text_equation: autoDraw = False
+272.1577 	EXP 	text_opt1: autoDraw = False
+272.1577 	EXP 	text_opt2: autoDraw = False
+272.1577 	EXP 	text_opt3: autoDraw = False
+272.1577 	EXP 	text_2: autoDraw = True
+272.3082 	EXP 	Device response: <KeyPress from None: t=272.1425125000533, value=2, duration=0.16029609995894134>
+274.1498 	EXP 	text_2: autoDraw = False
+274.1498 	EXP 	text_2: autoDraw = False
+274.1498 	EXP 	text_feedback: height = np.float64(0.05)
+274.1498 	EXP 	text_feedback: height = np.float64(0.05)
+274.1498 	EXP 	text_feedback: height = np.float64(0.05)
+274.1498 	EXP 	text_feedback: text = 'Correct!'
+274.1498 	EXP 	text_feedback: autoDraw = True
+277.1371 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'math_eq': '33 - 8', 'CorrAns': np.int64(25), 'dstr1': np.int64(26), 'dstr2': np.int64(28), 'CorrAns_key': np.int64(3), 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+277.1458 	EXP 	text_feedback: autoDraw = False
+277.1458 	EXP 	text_feedback: autoDraw = False
+277.1458 	EXP 	text_equation: height = np.float64(0.1)
+277.1458 	EXP 	text_equation: height = np.float64(0.1)
+277.1458 	EXP 	text_equation: height = np.float64(0.1)
+277.1458 	EXP 	text_equation: text = '33 - 8'
+277.1458 	EXP 	text_opt1: height = np.float64(0.05)
+277.1458 	EXP 	text_opt1: height = np.float64(0.05)
+277.1458 	EXP 	text_opt1: height = np.float64(0.05)
+277.1458 	EXP 	text_opt1: text = '1. 26'
+277.1458 	EXP 	text_opt2: height = np.float64(0.05)
+277.1458 	EXP 	text_opt2: height = np.float64(0.05)
+277.1458 	EXP 	text_opt2: height = np.float64(0.05)
+277.1458 	EXP 	text_opt2: text = '2. 28'
+277.1458 	EXP 	text_opt3: height = np.float64(0.05)
+277.1458 	EXP 	text_opt3: height = np.float64(0.05)
+277.1458 	EXP 	text_opt3: height = np.float64(0.05)
+277.1458 	EXP 	text_opt3: text = '3. 25'
+277.1458 	EXP 	text_equation: autoDraw = True
+277.1458 	EXP 	text_opt1: autoDraw = True
+277.1458 	EXP 	text_opt2: autoDraw = True
+277.1458 	EXP 	text_opt3: autoDraw = True
+279.6337 	EXP 	Device response: <KeyPress from None: t=279.63060180004686, value=1, duration=None>
+279.6347 	DATA 	Keypress: 1
+279.6414 	EXP 	text_equation: autoDraw = False
+279.6414 	EXP 	text_opt1: autoDraw = False
+279.6414 	EXP 	text_opt2: autoDraw = False
+279.6414 	EXP 	text_opt3: autoDraw = False
+279.6414 	EXP 	text_2: autoDraw = True
+279.7666 	EXP 	Device response: <KeyPress from None: t=279.63060180004686, value=1, duration=0.12812580005265772>
+281.6330 	EXP 	text_2: autoDraw = False
+281.6330 	EXP 	text_2: autoDraw = False
+281.6330 	EXP 	text_feedback: height = np.float64(0.05)
+281.6330 	EXP 	text_feedback: height = np.float64(0.05)
+281.6330 	EXP 	text_feedback: height = np.float64(0.05)
+281.6330 	EXP 	text_feedback: text = 'Incorrect!'
+281.6330 	EXP 	text_feedback: autoDraw = True
+284.6209 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'math_eq': '37 + 26', 'CorrAns': np.int64(63), 'dstr1': np.int64(53), 'dstr2': np.int64(65), 'CorrAns_key': np.int64(1), 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+284.6296 	EXP 	text_feedback: autoDraw = False
+284.6296 	EXP 	text_feedback: autoDraw = False
+284.6296 	EXP 	text_equation: height = np.float64(0.1)
+284.6296 	EXP 	text_equation: height = np.float64(0.1)
+284.6296 	EXP 	text_equation: height = np.float64(0.1)
+284.6296 	EXP 	text_equation: text = '37 + 26'
+284.6296 	EXP 	text_opt1: height = np.float64(0.05)
+284.6296 	EXP 	text_opt1: height = np.float64(0.05)
+284.6296 	EXP 	text_opt1: height = np.float64(0.05)
+284.6296 	EXP 	text_opt1: text = '1. 63'
+284.6296 	EXP 	text_opt2: height = np.float64(0.05)
+284.6296 	EXP 	text_opt2: height = np.float64(0.05)
+284.6296 	EXP 	text_opt2: height = np.float64(0.05)
+284.6296 	EXP 	text_opt2: text = '2. 53'
+284.6296 	EXP 	text_opt3: height = np.float64(0.05)
+284.6296 	EXP 	text_opt3: height = np.float64(0.05)
+284.6296 	EXP 	text_opt3: height = np.float64(0.05)
+284.6296 	EXP 	text_opt3: text = '3. 65'
+284.6296 	EXP 	text_equation: autoDraw = True
+284.6296 	EXP 	text_opt1: autoDraw = True
+284.6296 	EXP 	text_opt2: autoDraw = True
+284.6296 	EXP 	text_opt3: autoDraw = True
+287.4584 	EXP 	Device response: <KeyPress from None: t=287.45431400020607, value=3, duration=None>
+287.4594 	DATA 	Keypress: 3
+287.4664 	EXP 	text_equation: autoDraw = False
+287.4664 	EXP 	text_opt1: autoDraw = False
+287.4664 	EXP 	text_opt2: autoDraw = False
+287.4664 	EXP 	text_opt3: autoDraw = False
+287.4664 	EXP 	text_2: autoDraw = True
+287.5751 	EXP 	Device response: <KeyPress from None: t=287.45431400020607, value=3, duration=0.11268769996240735>
+289.4580 	EXP 	text_2: autoDraw = False
+289.4580 	EXP 	text_2: autoDraw = False
+289.4580 	EXP 	text_feedback: text = 'Incorrect!'
+289.4580 	EXP 	text_feedback: autoDraw = True
+292.4422 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+292.4499 	EXP 	text_feedback: autoDraw = False
+292.4499 	EXP 	text_feedback: autoDraw = False
+292.4499 	EXP 	text: autoDraw = True
+302.4376 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'math_eq': '34 - 8', 'CorrAns': np.int64(26), 'dstr1': np.int64(20), 'dstr2': np.int64(32), 'CorrAns_key': np.int64(1), 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+302.4461 	EXP 	text: autoDraw = False
+302.4461 	EXP 	text: autoDraw = False
+302.4461 	EXP 	text_equation: height = np.float64(0.1)
+302.4461 	EXP 	text_equation: height = np.float64(0.1)
+302.4461 	EXP 	text_equation: height = np.float64(0.1)
+302.4461 	EXP 	text_equation: text = '34 - 8'
+302.4461 	EXP 	text_opt1: height = np.float64(0.05)
+302.4461 	EXP 	text_opt1: height = np.float64(0.05)
+302.4461 	EXP 	text_opt1: height = np.float64(0.05)
+302.4461 	EXP 	text_opt1: text = '1. 26'
+302.4461 	EXP 	text_opt2: height = np.float64(0.05)
+302.4461 	EXP 	text_opt2: height = np.float64(0.05)
+302.4461 	EXP 	text_opt2: height = np.float64(0.05)
+302.4461 	EXP 	text_opt2: text = '2. 20'
+302.4461 	EXP 	text_opt3: height = np.float64(0.05)
+302.4461 	EXP 	text_opt3: height = np.float64(0.05)
+302.4461 	EXP 	text_opt3: height = np.float64(0.05)
+302.4461 	EXP 	text_opt3: text = '3. 32'
+302.4461 	EXP 	text_equation: autoDraw = True
+302.4461 	EXP 	text_opt1: autoDraw = True
+302.4461 	EXP 	text_opt2: autoDraw = True
+302.4461 	EXP 	text_opt3: autoDraw = True
+304.4174 	EXP 	Device response: <KeyPress from None: t=304.4141145001631, value=1, duration=None>
+304.4184 	DATA 	Keypress: 1
+304.4251 	EXP 	text_equation: autoDraw = False
+304.4251 	EXP 	text_opt1: autoDraw = False
+304.4251 	EXP 	text_opt2: autoDraw = False
+304.4251 	EXP 	text_opt3: autoDraw = False
+304.4251 	EXP 	text_2: autoDraw = True
+304.5503 	EXP 	Device response: <KeyPress from None: t=304.4141145001631, value=1, duration=0.12785879988223314>
+306.4171 	EXP 	text_2: autoDraw = False
+306.4171 	EXP 	text_2: autoDraw = False
+306.4171 	EXP 	text_feedback: height = np.float64(0.05)
+306.4171 	EXP 	text_feedback: height = np.float64(0.05)
+306.4171 	EXP 	text_feedback: height = np.float64(0.05)
+306.4171 	EXP 	text_feedback: text = 'Correct!'
+306.4171 	EXP 	text_feedback: autoDraw = True
+309.4043 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'math_eq': '14 * 3', 'CorrAns': np.int64(42), 'dstr1': np.int64(44), 'dstr2': np.int64(49), 'CorrAns_key': np.int64(1), 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+309.4127 	EXP 	text_feedback: autoDraw = False
+309.4127 	EXP 	text_feedback: autoDraw = False
+309.4127 	EXP 	text_equation: height = np.float64(0.1)
+309.4127 	EXP 	text_equation: height = np.float64(0.1)
+309.4127 	EXP 	text_equation: height = np.float64(0.1)
+309.4127 	EXP 	text_equation: text = '14 * 3'
+309.4127 	EXP 	text_opt1: height = np.float64(0.05)
+309.4127 	EXP 	text_opt1: height = np.float64(0.05)
+309.4127 	EXP 	text_opt1: height = np.float64(0.05)
+309.4127 	EXP 	text_opt1: text = '1. 42'
+309.4127 	EXP 	text_opt2: height = np.float64(0.05)
+309.4127 	EXP 	text_opt2: height = np.float64(0.05)
+309.4127 	EXP 	text_opt2: height = np.float64(0.05)
+309.4127 	EXP 	text_opt2: text = '2. 44'
+309.4127 	EXP 	text_opt3: height = np.float64(0.05)
+309.4127 	EXP 	text_opt3: height = np.float64(0.05)
+309.4127 	EXP 	text_opt3: height = np.float64(0.05)
+309.4127 	EXP 	text_opt3: text = '3. 49'
+309.4127 	EXP 	text_equation: autoDraw = True
+309.4127 	EXP 	text_opt1: autoDraw = True
+309.4127 	EXP 	text_opt2: autoDraw = True
+309.4127 	EXP 	text_opt3: autoDraw = True
+315.1093 	EXP 	Device response: <KeyPress from None: t=315.1028794001322, value=2, duration=None>
+315.1104 	DATA 	Keypress: 2
+315.1171 	EXP 	text_equation: autoDraw = False
+315.1171 	EXP 	text_opt1: autoDraw = False
+315.1171 	EXP 	text_opt2: autoDraw = False
+315.1171 	EXP 	text_opt3: autoDraw = False
+315.1171 	EXP 	text_2: autoDraw = True
+315.2008 	EXP 	Device response: <KeyPress from None: t=315.1028794001322, value=2, duration=0.09551239991560578>
+317.1087 	EXP 	text_2: autoDraw = False
+317.1087 	EXP 	text_2: autoDraw = False
+317.1087 	EXP 	text_feedback: height = np.float64(0.05)
+317.1087 	EXP 	text_feedback: height = np.float64(0.05)
+317.1087 	EXP 	text_feedback: height = np.float64(0.05)
+317.1087 	EXP 	text_feedback: text = 'Incorrect!'
+317.1087 	EXP 	text_feedback: autoDraw = True
+320.0960 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'math_eq': '22 + 18', 'CorrAns': np.int64(40), 'dstr1': np.int64(33), 'dstr2': np.int64(48), 'CorrAns_key': np.int64(3), 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+320.1050 	EXP 	text_feedback: autoDraw = False
+320.1050 	EXP 	text_feedback: autoDraw = False
+320.1050 	EXP 	text_equation: height = np.float64(0.1)
+320.1050 	EXP 	text_equation: height = np.float64(0.1)
+320.1050 	EXP 	text_equation: height = np.float64(0.1)
+320.1050 	EXP 	text_equation: text = '22 + 18'
+320.1050 	EXP 	text_opt1: height = np.float64(0.05)
+320.1050 	EXP 	text_opt1: height = np.float64(0.05)
+320.1050 	EXP 	text_opt1: height = np.float64(0.05)
+320.1050 	EXP 	text_opt1: text = '1. 33'
+320.1050 	EXP 	text_opt2: height = np.float64(0.05)
+320.1050 	EXP 	text_opt2: height = np.float64(0.05)
+320.1050 	EXP 	text_opt2: height = np.float64(0.05)
+320.1050 	EXP 	text_opt2: text = '2. 48'
+320.1050 	EXP 	text_opt3: height = np.float64(0.05)
+320.1050 	EXP 	text_opt3: height = np.float64(0.05)
+320.1050 	EXP 	text_opt3: height = np.float64(0.05)
+320.1050 	EXP 	text_opt3: text = '3. 40'
+320.1050 	EXP 	text_equation: autoDraw = True
+320.1050 	EXP 	text_opt1: autoDraw = True
+320.1050 	EXP 	text_opt2: autoDraw = True
+320.1050 	EXP 	text_opt3: autoDraw = True
+322.1506 	EXP 	Device response: <KeyPress from None: t=322.14291490009055, value=1, duration=None>
+322.1517 	DATA 	Keypress: 1
+322.1586 	EXP 	text_equation: autoDraw = False
+322.1586 	EXP 	text_opt1: autoDraw = False
+322.1586 	EXP 	text_opt2: autoDraw = False
+322.1586 	EXP 	text_opt3: autoDraw = False
+322.1586 	EXP 	text_2: autoDraw = True
+322.2591 	EXP 	Device response: <KeyPress from None: t=322.14291490009055, value=1, duration=0.11198849999345839>
+322.5592 	EXP 	Device response: <KeyPress from None: t=322.55880170012824, value=3, duration=None>
+322.5596 	DATA 	Keypress: 3
+322.6590 	EXP 	Device response: <KeyPress from None: t=322.55880170012824, value=3, duration=0.09596790000796318>
+322.6922 	EXP 	Device response: <KeyPress from None: t=322.68683270015754, value=3, duration=None>
+322.6926 	DATA 	Keypress: 3
+322.8006 	EXP 	Device response: <KeyPress from None: t=322.68683270015754, value=3, duration=0.11195629998110235>
+322.8675 	EXP 	Device response: <KeyPress from None: t=322.86278540012427, value=2, duration=None>
+322.8675 	EXP 	Device response: <KeyPress from None: t=322.86376680014655, value=3, duration=None>
+322.8679 	DATA 	Keypress: 2
+322.8680 	DATA 	Keypress: 3
+322.9341 	EXP 	Device response: <KeyPress from None: t=322.86278540012427, value=2, duration=0.06399589986540377>
+322.9506 	EXP 	Device response: <KeyPress from None: t=322.86376680014655, value=3, duration=0.07901780004613101>
+323.0091 	EXP 	Device response: <KeyPress from None: t=323.0067790001631, value=3, duration=None>
+323.0095 	DATA 	Keypress: 3
+323.0922 	EXP 	Device response: <KeyPress from None: t=323.0067790001631, value=3, duration=0.0800236000213772>
+323.1422 	EXP 	Device response: <KeyPress from None: t=323.1347926000599, value=3, duration=None>
+323.1425 	DATA 	Keypress: 3
+323.2341 	EXP 	Device response: <KeyPress from None: t=323.1347926000599, value=3, duration=0.09598570014350116>
+323.3173 	EXP 	Device response: <KeyPress from None: t=323.3107754001394, value=3, duration=None>
+323.3177 	DATA 	Keypress: 3
+323.3922 	EXP 	Device response: <KeyPress from None: t=323.3107754001394, value=3, duration=0.08002080000005662>
+323.4589 	EXP 	Device response: <KeyPress from None: t=323.45480170007795, value=3, duration=None>
+323.4593 	DATA 	Keypress: 3
+323.5672 	EXP 	Device response: <KeyPress from None: t=323.45480170007795, value=3, duration=0.11200410011224449>
+323.6340 	EXP 	Device response: <KeyPress from None: t=323.6308022001758, value=3, duration=None>
+323.6344 	DATA 	Keypress: 3
+323.7756 	EXP 	Device response: <KeyPress from None: t=323.6308022001758, value=3, duration=0.14410509984008968>
+324.1502 	EXP 	text_2: autoDraw = False
+324.1502 	EXP 	text_2: autoDraw = False
+324.1502 	EXP 	text_feedback: text = 'Incorrect!'
+324.1502 	EXP 	text_feedback: autoDraw = True
+327.1383 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'math_eq': '11 * 3', 'CorrAns': np.int64(33), 'dstr1': np.int64(39), 'dstr2': np.int64(29), 'CorrAns_key': np.int64(1), 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+327.1457 	EXP 	text_feedback: autoDraw = False
+327.1457 	EXP 	text_feedback: autoDraw = False
+327.1457 	EXP 	text_equation: height = np.float64(0.1)
+327.1457 	EXP 	text_equation: height = np.float64(0.1)
+327.1457 	EXP 	text_equation: height = np.float64(0.1)
+327.1457 	EXP 	text_equation: text = '11 * 3'
+327.1457 	EXP 	text_opt1: text = '1. 33'
+327.1457 	EXP 	text_opt2: height = np.float64(0.05)
+327.1457 	EXP 	text_opt2: height = np.float64(0.05)
+327.1457 	EXP 	text_opt2: height = np.float64(0.05)
+327.1457 	EXP 	text_opt2: text = '2. 39'
+327.1457 	EXP 	text_opt3: height = np.float64(0.05)
+327.1457 	EXP 	text_opt3: height = np.float64(0.05)
+327.1457 	EXP 	text_opt3: height = np.float64(0.05)
+327.1457 	EXP 	text_opt3: text = '3. 29'
+327.1457 	EXP 	text_equation: autoDraw = True
+327.1457 	EXP 	text_opt1: autoDraw = True
+327.1457 	EXP 	text_opt2: autoDraw = True
+327.1457 	EXP 	text_opt3: autoDraw = True
+328.6096 	EXP 	Device response: <KeyPress from None: t=328.60699230013415, value=1, duration=None>
+328.6106 	DATA 	Keypress: 1
+328.6173 	EXP 	text_equation: autoDraw = False
+328.6173 	EXP 	text_opt1: autoDraw = False
+328.6173 	EXP 	text_opt2: autoDraw = False
+328.6173 	EXP 	text_opt3: autoDraw = False
+328.6173 	EXP 	text_2: autoDraw = True
+328.6925 	EXP 	Device response: <KeyPress from None: t=328.60699230013415, value=1, duration=0.0791755998507142>
+330.6090 	EXP 	text_2: autoDraw = False
+330.6090 	EXP 	text_2: autoDraw = False
+330.6090 	EXP 	text_feedback: height = np.float64(0.05)
+330.6090 	EXP 	text_feedback: height = np.float64(0.05)
+330.6090 	EXP 	text_feedback: height = np.float64(0.05)
+330.6090 	EXP 	text_feedback: text = 'Correct!'
+330.6090 	EXP 	text_feedback: autoDraw = True
+333.5966 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'math_eq': '19 * 2', 'CorrAns': np.int64(38), 'dstr1': np.int64(37), 'dstr2': np.int64(32), 'CorrAns_key': np.int64(1), 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+333.6052 	EXP 	text_feedback: autoDraw = False
+333.6052 	EXP 	text_feedback: autoDraw = False
+333.6052 	EXP 	text_equation: height = np.float64(0.1)
+333.6052 	EXP 	text_equation: height = np.float64(0.1)
+333.6052 	EXP 	text_equation: height = np.float64(0.1)
+333.6052 	EXP 	text_equation: text = '19 * 2'
+333.6052 	EXP 	text_opt1: height = np.float64(0.05)
+333.6052 	EXP 	text_opt1: height = np.float64(0.05)
+333.6052 	EXP 	text_opt1: height = np.float64(0.05)
+333.6052 	EXP 	text_opt1: text = '1. 38'
+333.6052 	EXP 	text_opt2: height = np.float64(0.05)
+333.6052 	EXP 	text_opt2: height = np.float64(0.05)
+333.6052 	EXP 	text_opt2: height = np.float64(0.05)
+333.6052 	EXP 	text_opt2: text = '2. 37'
+333.6052 	EXP 	text_opt3: height = np.float64(0.05)
+333.6052 	EXP 	text_opt3: height = np.float64(0.05)
+333.6052 	EXP 	text_opt3: height = np.float64(0.05)
+333.6052 	EXP 	text_opt3: text = '3. 32'
+333.6052 	EXP 	text_equation: autoDraw = True
+333.6052 	EXP 	text_opt1: autoDraw = True
+333.6052 	EXP 	text_opt2: autoDraw = True
+333.6052 	EXP 	text_opt3: autoDraw = True
+335.1097 	EXP 	Device response: <KeyPress from None: t=335.10267520020716, value=1, duration=None>
+335.1107 	DATA 	Keypress: 1
+335.1172 	EXP 	text_equation: autoDraw = False
+335.1172 	EXP 	text_opt1: autoDraw = False
+335.1172 	EXP 	text_opt2: autoDraw = False
+335.1172 	EXP 	text_opt3: autoDraw = False
+335.1172 	EXP 	text_2: autoDraw = True
+335.2176 	EXP 	Device response: <KeyPress from None: t=335.10267520020716, value=1, duration=0.11188909993506968>
+337.1089 	EXP 	text_2: autoDraw = False
+337.1089 	EXP 	text_2: autoDraw = False
+337.1089 	EXP 	text_feedback: text = 'Correct!'
+337.1089 	EXP 	text_feedback: autoDraw = True
+340.0966 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'math_eq': '28 + 19', 'CorrAns': np.int64(47), 'dstr1': np.int64(50), 'dstr2': np.int64(45), 'CorrAns_key': np.int64(2), 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+340.1058 	EXP 	text_feedback: autoDraw = False
+340.1058 	EXP 	text_feedback: autoDraw = False
+340.1058 	EXP 	text_equation: height = np.float64(0.1)
+340.1058 	EXP 	text_equation: height = np.float64(0.1)
+340.1058 	EXP 	text_equation: height = np.float64(0.1)
+340.1058 	EXP 	text_equation: text = '28 + 19'
+340.1058 	EXP 	text_opt1: height = np.float64(0.05)
+340.1058 	EXP 	text_opt1: height = np.float64(0.05)
+340.1058 	EXP 	text_opt1: height = np.float64(0.05)
+340.1058 	EXP 	text_opt1: text = '1. 50'
+340.1058 	EXP 	text_opt2: height = np.float64(0.05)
+340.1058 	EXP 	text_opt2: height = np.float64(0.05)
+340.1058 	EXP 	text_opt2: height = np.float64(0.05)
+340.1058 	EXP 	text_opt2: text = '2. 47'
+340.1058 	EXP 	text_opt3: height = np.float64(0.05)
+340.1058 	EXP 	text_opt3: height = np.float64(0.05)
+340.1058 	EXP 	text_opt3: height = np.float64(0.05)
+340.1058 	EXP 	text_opt3: text = '3. 45'
+340.1058 	EXP 	text_equation: autoDraw = True
+340.1058 	EXP 	text_opt1: autoDraw = True
+340.1058 	EXP 	text_opt2: autoDraw = True
+340.1058 	EXP 	text_opt3: autoDraw = True
+343.9514 	EXP 	Device response: <KeyPress from None: t=343.95033460017294, value=2, duration=None>
+343.9524 	DATA 	Keypress: 2
+343.9591 	EXP 	text_equation: autoDraw = False
+343.9591 	EXP 	text_opt1: autoDraw = False
+343.9591 	EXP 	text_opt2: autoDraw = False
+343.9591 	EXP 	text_opt3: autoDraw = False
+343.9591 	EXP 	text_2: autoDraw = True
+344.1595 	EXP 	Device response: <KeyPress from None: t=343.95033460017294, value=2, duration=0.20784559985622764>
+345.9509 	EXP 	text_2: autoDraw = False
+345.9509 	EXP 	text_2: autoDraw = False
+345.9509 	EXP 	text_feedback: text = 'Correct!'
+345.9509 	EXP 	text_feedback: autoDraw = True
+348.9384 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'math_eq': '31 + 23', 'CorrAns': np.int64(54), 'dstr1': np.int64(47), 'dstr2': np.int64(57), 'CorrAns_key': np.int64(2), 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+348.9472 	EXP 	text_feedback: autoDraw = False
+348.9472 	EXP 	text_feedback: autoDraw = False
+348.9472 	EXP 	text_equation: height = np.float64(0.1)
+348.9472 	EXP 	text_equation: height = np.float64(0.1)
+348.9472 	EXP 	text_equation: height = np.float64(0.1)
+348.9472 	EXP 	text_equation: text = '31 + 23'
+348.9472 	EXP 	text_opt1: height = np.float64(0.05)
+348.9472 	EXP 	text_opt1: height = np.float64(0.05)
+348.9472 	EXP 	text_opt1: height = np.float64(0.05)
+348.9472 	EXP 	text_opt1: text = '1. 47'
+348.9472 	EXP 	text_opt2: height = np.float64(0.05)
+348.9472 	EXP 	text_opt2: height = np.float64(0.05)
+348.9472 	EXP 	text_opt2: height = np.float64(0.05)
+348.9472 	EXP 	text_opt2: text = '2. 54'
+348.9472 	EXP 	text_opt3: height = np.float64(0.05)
+348.9472 	EXP 	text_opt3: height = np.float64(0.05)
+348.9472 	EXP 	text_opt3: height = np.float64(0.05)
+348.9472 	EXP 	text_opt3: text = '3. 57'
+348.9472 	EXP 	text_equation: autoDraw = True
+348.9472 	EXP 	text_opt1: autoDraw = True
+348.9472 	EXP 	text_opt2: autoDraw = True
+348.9472 	EXP 	text_opt3: autoDraw = True
+352.3098 	EXP 	Device response: <KeyPress from None: t=352.303021900123, value=2, duration=None>
+352.3108 	DATA 	Keypress: 2
+352.3177 	EXP 	text_equation: autoDraw = False
+352.3177 	EXP 	text_opt1: autoDraw = False
+352.3177 	EXP 	text_opt2: autoDraw = False
+352.3177 	EXP 	text_opt3: autoDraw = False
+352.3177 	EXP 	text_2: autoDraw = True
+352.4682 	EXP 	Device response: <KeyPress from None: t=352.303021900123, value=2, duration=0.15954559994861484>
+354.3093 	EXP 	text_2: autoDraw = False
+354.3093 	EXP 	text_2: autoDraw = False
+354.3093 	EXP 	text_feedback: text = 'Correct!'
+354.3093 	EXP 	text_feedback: autoDraw = True
+357.2972 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'math_eq': '22 + 20', 'CorrAns': np.int64(42), 'dstr1': np.int64(38), 'dstr2': np.int64(51), 'CorrAns_key': np.int64(2), 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+357.3057 	EXP 	text_feedback: autoDraw = False
+357.3057 	EXP 	text_feedback: autoDraw = False
+357.3057 	EXP 	text_equation: height = np.float64(0.1)
+357.3057 	EXP 	text_equation: height = np.float64(0.1)
+357.3057 	EXP 	text_equation: height = np.float64(0.1)
+357.3057 	EXP 	text_equation: text = '22 + 20'
+357.3057 	EXP 	text_opt1: height = np.float64(0.05)
+357.3057 	EXP 	text_opt1: height = np.float64(0.05)
+357.3057 	EXP 	text_opt1: height = np.float64(0.05)
+357.3057 	EXP 	text_opt1: text = '1. 38'
+357.3057 	EXP 	text_opt2: height = np.float64(0.05)
+357.3057 	EXP 	text_opt2: height = np.float64(0.05)
+357.3057 	EXP 	text_opt2: height = np.float64(0.05)
+357.3057 	EXP 	text_opt2: text = '2. 42'
+357.3057 	EXP 	text_opt3: height = np.float64(0.05)
+357.3057 	EXP 	text_opt3: height = np.float64(0.05)
+357.3057 	EXP 	text_opt3: height = np.float64(0.05)
+357.3057 	EXP 	text_opt3: text = '3. 51'
+357.3057 	EXP 	text_equation: autoDraw = True
+357.3057 	EXP 	text_opt1: autoDraw = True
+357.3057 	EXP 	text_opt2: autoDraw = True
+357.3057 	EXP 	text_opt3: autoDraw = True
+359.1851 	EXP 	Device response: <KeyPress from None: t=359.18259109999053, value=2, duration=None>
+359.1861 	DATA 	Keypress: 2
+359.1926 	EXP 	text_equation: autoDraw = False
+359.1926 	EXP 	text_opt1: autoDraw = False
+359.1926 	EXP 	text_opt2: autoDraw = False
+359.1926 	EXP 	text_opt3: autoDraw = False
+359.1926 	EXP 	text_2: autoDraw = True
+359.3434 	EXP 	Device response: <KeyPress from None: t=359.18259109999053, value=2, duration=0.16036240011453629>
+361.1847 	EXP 	text_2: autoDraw = False
+361.1847 	EXP 	text_2: autoDraw = False
+361.1847 	EXP 	text_feedback: text = 'Correct!'
+361.1847 	EXP 	text_feedback: autoDraw = True
+364.1722 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'math_eq': '39 - 11', 'CorrAns': np.int64(28), 'dstr1': np.int64(19), 'dstr2': np.int64(18), 'CorrAns_key': np.int64(1), 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+364.1807 	EXP 	text_feedback: autoDraw = False
+364.1807 	EXP 	text_feedback: autoDraw = False
+364.1807 	EXP 	text_equation: height = np.float64(0.1)
+364.1807 	EXP 	text_equation: height = np.float64(0.1)
+364.1807 	EXP 	text_equation: height = np.float64(0.1)
+364.1807 	EXP 	text_equation: text = '39 - 11'
+364.1807 	EXP 	text_opt1: height = np.float64(0.05)
+364.1807 	EXP 	text_opt1: height = np.float64(0.05)
+364.1807 	EXP 	text_opt1: height = np.float64(0.05)
+364.1807 	EXP 	text_opt1: text = '1. 28'
+364.1807 	EXP 	text_opt2: height = np.float64(0.05)
+364.1807 	EXP 	text_opt2: height = np.float64(0.05)
+364.1807 	EXP 	text_opt2: height = np.float64(0.05)
+364.1807 	EXP 	text_opt2: text = '2. 19'
+364.1807 	EXP 	text_opt3: height = np.float64(0.05)
+364.1807 	EXP 	text_opt3: height = np.float64(0.05)
+364.1807 	EXP 	text_opt3: height = np.float64(0.05)
+364.1807 	EXP 	text_opt3: text = '3. 18'
+364.1807 	EXP 	text_equation: autoDraw = True
+364.1807 	EXP 	text_opt1: autoDraw = True
+364.1807 	EXP 	text_opt2: autoDraw = True
+364.1807 	EXP 	text_opt3: autoDraw = True
+366.2766 	EXP 	Device response: <KeyPress from None: t=366.27070350013673, value=1, duration=None>
+366.2777 	DATA 	Keypress: 1
+366.2847 	EXP 	text_equation: autoDraw = False
+366.2847 	EXP 	text_opt1: autoDraw = False
+366.2847 	EXP 	text_opt2: autoDraw = False
+366.2847 	EXP 	text_opt3: autoDraw = False
+366.2847 	EXP 	text_2: autoDraw = True
+366.4685 	EXP 	Device response: <KeyPress from None: t=366.27070350013673, value=1, duration=0.19178820005618036>
+368.2762 	EXP 	text_2: autoDraw = False
+368.2762 	EXP 	text_2: autoDraw = False
+368.2762 	EXP 	text_feedback: text = 'Correct!'
+368.2762 	EXP 	text_feedback: autoDraw = True
+371.2638 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'math_eq': '31 + 43', 'CorrAns': np.int64(74), 'dstr1': np.int64(73), 'dstr2': np.int64(64), 'CorrAns_key': np.int64(3), 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+371.2726 	EXP 	text_feedback: autoDraw = False
+371.2726 	EXP 	text_feedback: autoDraw = False
+371.2726 	EXP 	text_equation: height = np.float64(0.1)
+371.2726 	EXP 	text_equation: height = np.float64(0.1)
+371.2726 	EXP 	text_equation: height = np.float64(0.1)
+371.2726 	EXP 	text_equation: text = '31 + 43'
+371.2726 	EXP 	text_opt1: height = np.float64(0.05)
+371.2726 	EXP 	text_opt1: height = np.float64(0.05)
+371.2726 	EXP 	text_opt1: height = np.float64(0.05)
+371.2726 	EXP 	text_opt1: text = '1. 73'
+371.2726 	EXP 	text_opt2: height = np.float64(0.05)
+371.2726 	EXP 	text_opt2: height = np.float64(0.05)
+371.2726 	EXP 	text_opt2: height = np.float64(0.05)
+371.2726 	EXP 	text_opt2: text = '2. 64'
+371.2726 	EXP 	text_opt3: height = np.float64(0.05)
+371.2726 	EXP 	text_opt3: height = np.float64(0.05)
+371.2726 	EXP 	text_opt3: height = np.float64(0.05)
+371.2726 	EXP 	text_opt3: text = '3. 74'
+371.2726 	EXP 	text_equation: autoDraw = True
+371.2726 	EXP 	text_opt1: autoDraw = True
+371.2726 	EXP 	text_opt2: autoDraw = True
+371.2726 	EXP 	text_opt3: autoDraw = True
+375.3109 	DATA 	Keypress: 3
+375.3183 	EXP 	Device response: <KeyPress from None: t=375.310240900144, value=3, duration=None>
+375.3265 	EXP 	text_equation: autoDraw = False
+375.3265 	EXP 	text_opt1: autoDraw = False
+375.3265 	EXP 	text_opt2: autoDraw = False
+375.3265 	EXP 	text_opt3: autoDraw = False
+375.3265 	EXP 	text_2: autoDraw = True
+375.4766 	EXP 	Device response: <KeyPress from None: t=375.310240900144, value=3, duration=0.16087460005655885>
+377.3180 	EXP 	text_2: autoDraw = False
+377.3180 	EXP 	text_2: autoDraw = False
+377.3180 	EXP 	text_feedback: text = 'Correct!'
+377.3180 	EXP 	text_feedback: autoDraw = True
+380.3024 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+380.3098 	EXP 	text_feedback: autoDraw = False
+380.3098 	EXP 	text_feedback: autoDraw = False
+380.3098 	EXP 	text: autoDraw = True
+390.2973 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'math_eq': '30 + 22', 'CorrAns': np.int64(52), 'dstr1': np.int64(58), 'dstr2': np.int64(53), 'CorrAns_key': np.int64(1), 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+390.3063 	EXP 	text: autoDraw = False
+390.3063 	EXP 	text: autoDraw = False
+390.3063 	EXP 	text_equation: height = np.float64(0.1)
+390.3063 	EXP 	text_equation: height = np.float64(0.1)
+390.3063 	EXP 	text_equation: height = np.float64(0.1)
+390.3063 	EXP 	text_equation: text = '30 + 22'
+390.3063 	EXP 	text_opt1: height = np.float64(0.05)
+390.3063 	EXP 	text_opt1: height = np.float64(0.05)
+390.3063 	EXP 	text_opt1: height = np.float64(0.05)
+390.3063 	EXP 	text_opt1: text = '1. 52'
+390.3063 	EXP 	text_opt2: height = np.float64(0.05)
+390.3063 	EXP 	text_opt2: height = np.float64(0.05)
+390.3063 	EXP 	text_opt2: height = np.float64(0.05)
+390.3063 	EXP 	text_opt2: text = '2. 58'
+390.3063 	EXP 	text_opt3: height = np.float64(0.05)
+390.3063 	EXP 	text_opt3: height = np.float64(0.05)
+390.3063 	EXP 	text_opt3: height = np.float64(0.05)
+390.3063 	EXP 	text_opt3: text = '3. 53'
+390.3063 	EXP 	text_equation: autoDraw = True
+390.3063 	EXP 	text_opt1: autoDraw = True
+390.3063 	EXP 	text_opt2: autoDraw = True
+390.3063 	EXP 	text_opt3: autoDraw = True
+392.1270 	EXP 	Device response: <KeyPress from None: t=392.12641070014797, value=1, duration=None>
+392.1281 	DATA 	Keypress: 1
+392.1352 	EXP 	text_equation: autoDraw = False
+392.1352 	EXP 	text_opt1: autoDraw = False
+392.1352 	EXP 	text_opt2: autoDraw = False
+392.1352 	EXP 	text_opt3: autoDraw = False
+392.1352 	EXP 	text_2: autoDraw = True
+392.3104 	EXP 	Device response: <KeyPress from None: t=392.12641070014797, value=1, duration=0.17635429999791086>
+394.1267 	EXP 	text_2: autoDraw = False
+394.1267 	EXP 	text_2: autoDraw = False
+394.1267 	EXP 	text_feedback: text = 'Correct!'
+394.1267 	EXP 	text_feedback: autoDraw = True
+397.1148 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'math_eq': '25 - 14', 'CorrAns': np.int64(11), 'dstr1': np.int64(2), 'dstr2': np.int64(6), 'CorrAns_key': np.int64(1), 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+397.1232 	EXP 	text_feedback: autoDraw = False
+397.1232 	EXP 	text_feedback: autoDraw = False
+397.1232 	EXP 	text_equation: height = np.float64(0.1)
+397.1232 	EXP 	text_equation: height = np.float64(0.1)
+397.1232 	EXP 	text_equation: height = np.float64(0.1)
+397.1232 	EXP 	text_equation: text = '25 - 14'
+397.1232 	EXP 	text_opt1: height = np.float64(0.05)
+397.1232 	EXP 	text_opt1: height = np.float64(0.05)
+397.1232 	EXP 	text_opt1: height = np.float64(0.05)
+397.1232 	EXP 	text_opt1: text = '1. 11'
+397.1232 	EXP 	text_opt2: height = np.float64(0.05)
+397.1232 	EXP 	text_opt2: height = np.float64(0.05)
+397.1232 	EXP 	text_opt2: height = np.float64(0.05)
+397.1232 	EXP 	text_opt2: text = '2. 2'
+397.1232 	EXP 	text_opt3: height = np.float64(0.05)
+397.1232 	EXP 	text_opt3: height = np.float64(0.05)
+397.1232 	EXP 	text_opt3: height = np.float64(0.05)
+397.1232 	EXP 	text_opt3: text = '3. 6'
+397.1232 	EXP 	text_equation: autoDraw = True
+397.1232 	EXP 	text_opt1: autoDraw = True
+397.1232 	EXP 	text_opt2: autoDraw = True
+397.1232 	EXP 	text_opt3: autoDraw = True
+400.5772 	EXP 	Device response: <KeyPress from None: t=400.57434370019473, value=1, duration=None>
+400.5782 	DATA 	Keypress: 1
+400.5851 	EXP 	text_equation: autoDraw = False
+400.5851 	EXP 	text_opt1: autoDraw = False
+400.5851 	EXP 	text_opt2: autoDraw = False
+400.5851 	EXP 	text_opt3: autoDraw = False
+400.5851 	EXP 	text_2: autoDraw = True
+400.7689 	EXP 	Device response: <KeyPress from None: t=400.57434370019473, value=1, duration=0.1922678998671472>
+402.5768 	EXP 	text_2: autoDraw = False
+402.5768 	EXP 	text_2: autoDraw = False
+402.5768 	EXP 	text_feedback: text = 'Correct!'
+402.5768 	EXP 	text_feedback: autoDraw = True
+405.5645 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'math_eq': '100 / 4', 'CorrAns': np.int64(25), 'dstr1': np.int64(20), 'dstr2': np.int64(22), 'CorrAns_key': np.int64(3), 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+405.5733 	EXP 	text_feedback: autoDraw = False
+405.5733 	EXP 	text_feedback: autoDraw = False
+405.5733 	EXP 	text_equation: height = np.float64(0.1)
+405.5733 	EXP 	text_equation: height = np.float64(0.1)
+405.5733 	EXP 	text_equation: height = np.float64(0.1)
+405.5733 	EXP 	text_equation: text = '100 / 4'
+405.5733 	EXP 	text_opt1: height = np.float64(0.05)
+405.5733 	EXP 	text_opt1: height = np.float64(0.05)
+405.5733 	EXP 	text_opt1: height = np.float64(0.05)
+405.5733 	EXP 	text_opt1: text = '1. 20'
+405.5733 	EXP 	text_opt2: height = np.float64(0.05)
+405.5733 	EXP 	text_opt2: height = np.float64(0.05)
+405.5733 	EXP 	text_opt2: height = np.float64(0.05)
+405.5733 	EXP 	text_opt2: text = '2. 22'
+405.5733 	EXP 	text_opt3: height = np.float64(0.05)
+405.5733 	EXP 	text_opt3: height = np.float64(0.05)
+405.5733 	EXP 	text_opt3: height = np.float64(0.05)
+405.5733 	EXP 	text_opt3: text = '3. 25'
+405.5733 	EXP 	text_equation: autoDraw = True
+405.5733 	EXP 	text_opt1: autoDraw = True
+405.5733 	EXP 	text_opt2: autoDraw = True
+405.5733 	EXP 	text_opt3: autoDraw = True
+407.9356 	EXP 	Device response: <KeyPress from None: t=407.93503400008194, value=3, duration=None>
+407.9366 	DATA 	Keypress: 3
+407.9437 	EXP 	text_equation: autoDraw = False
+407.9437 	EXP 	text_opt1: autoDraw = False
+407.9437 	EXP 	text_opt2: autoDraw = False
+407.9437 	EXP 	text_opt3: autoDraw = False
+407.9437 	EXP 	text_2: autoDraw = True
+408.0525 	EXP 	Device response: <KeyPress from None: t=407.93503400008194, value=3, duration=0.11147350003011525>
+409.9357 	EXP 	text_2: autoDraw = False
+409.9357 	EXP 	text_2: autoDraw = False
+409.9357 	EXP 	text_feedback: text = 'Correct!'
+409.9357 	EXP 	text_feedback: autoDraw = True
+412.9232 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'math_eq': '58 - 13', 'CorrAns': np.int64(45), 'dstr1': np.int64(55), 'dstr2': np.int64(44), 'CorrAns_key': np.int64(3), 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+412.9322 	EXP 	text_feedback: autoDraw = False
+412.9322 	EXP 	text_feedback: autoDraw = False
+412.9322 	EXP 	text_equation: height = np.float64(0.1)
+412.9322 	EXP 	text_equation: height = np.float64(0.1)
+412.9322 	EXP 	text_equation: height = np.float64(0.1)
+412.9322 	EXP 	text_equation: text = '58 - 13'
+412.9322 	EXP 	text_opt1: height = np.float64(0.05)
+412.9322 	EXP 	text_opt1: height = np.float64(0.05)
+412.9322 	EXP 	text_opt1: height = np.float64(0.05)
+412.9322 	EXP 	text_opt1: text = '1. 55'
+412.9322 	EXP 	text_opt2: height = np.float64(0.05)
+412.9322 	EXP 	text_opt2: height = np.float64(0.05)
+412.9322 	EXP 	text_opt2: height = np.float64(0.05)
+412.9322 	EXP 	text_opt2: text = '2. 44'
+412.9322 	EXP 	text_opt3: height = np.float64(0.05)
+412.9322 	EXP 	text_opt3: height = np.float64(0.05)
+412.9322 	EXP 	text_opt3: height = np.float64(0.05)
+412.9322 	EXP 	text_opt3: text = '3. 45'
+412.9322 	EXP 	text_equation: autoDraw = True
+412.9322 	EXP 	text_opt1: autoDraw = True
+412.9322 	EXP 	text_opt2: autoDraw = True
+412.9322 	EXP 	text_opt3: autoDraw = True
+416.8789 	DATA 	Keypress: 3
+416.8862 	EXP 	Device response: <KeyPress from None: t=416.87855510017835, value=3, duration=None>
+416.8937 	EXP 	text_equation: autoDraw = False
+416.8937 	EXP 	text_opt1: autoDraw = False
+416.8937 	EXP 	text_opt2: autoDraw = False
+416.8937 	EXP 	text_opt3: autoDraw = False
+416.8937 	EXP 	text_2: autoDraw = True
+417.0282 	EXP 	Device response: <KeyPress from None: t=416.87855510017835, value=3, duration=0.1442831999156624>
+418.8853 	EXP 	text_2: autoDraw = False
+418.8853 	EXP 	text_2: autoDraw = False
+418.8853 	EXP 	text_feedback: text = 'Correct!'
+418.8853 	EXP 	text_feedback: autoDraw = True
+421.8732 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'math_eq': '33 + 22', 'CorrAns': np.int64(55), 'dstr1': np.int64(52), 'dstr2': np.int64(53), 'CorrAns_key': np.int64(2), 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+421.8815 	EXP 	text_feedback: autoDraw = False
+421.8815 	EXP 	text_feedback: autoDraw = False
+421.8815 	EXP 	text_equation: height = np.float64(0.1)
+421.8815 	EXP 	text_equation: height = np.float64(0.1)
+421.8815 	EXP 	text_equation: height = np.float64(0.1)
+421.8815 	EXP 	text_equation: text = '33 + 22'
+421.8815 	EXP 	text_opt1: height = np.float64(0.05)
+421.8815 	EXP 	text_opt1: height = np.float64(0.05)
+421.8815 	EXP 	text_opt1: height = np.float64(0.05)
+421.8815 	EXP 	text_opt1: text = '1. 52'
+421.8815 	EXP 	text_opt2: height = np.float64(0.05)
+421.8815 	EXP 	text_opt2: height = np.float64(0.05)
+421.8815 	EXP 	text_opt2: height = np.float64(0.05)
+421.8815 	EXP 	text_opt2: text = '2. 55'
+421.8815 	EXP 	text_opt3: height = np.float64(0.05)
+421.8815 	EXP 	text_opt3: height = np.float64(0.05)
+421.8815 	EXP 	text_opt3: height = np.float64(0.05)
+421.8815 	EXP 	text_opt3: text = '3. 53'
+421.8815 	EXP 	text_equation: autoDraw = True
+421.8815 	EXP 	text_opt1: autoDraw = True
+421.8815 	EXP 	text_opt2: autoDraw = True
+421.8815 	EXP 	text_opt3: autoDraw = True
+424.0025 	EXP 	Device response: <KeyPress from None: t=423.99818940018304, value=2, duration=None>
+424.0036 	DATA 	Keypress: 2
+424.0108 	EXP 	text_equation: autoDraw = False
+424.0108 	EXP 	text_opt1: autoDraw = False
+424.0108 	EXP 	text_opt2: autoDraw = False
+424.0108 	EXP 	text_opt3: autoDraw = False
+424.0108 	EXP 	text_2: autoDraw = True
+424.1274 	EXP 	Device response: <KeyPress from None: t=423.99818940018304, value=2, duration=0.128307799808681>
+426.0023 	EXP 	text_2: autoDraw = False
+426.0023 	EXP 	text_2: autoDraw = False
+426.0023 	EXP 	text_feedback: text = 'Correct!'
+426.0023 	EXP 	text_feedback: autoDraw = True
+428.9900 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'math_eq': '24 - 14', 'CorrAns': np.int64(10), 'dstr1': np.int64(20), 'dstr2': np.int64(11), 'CorrAns_key': np.int64(2), 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+428.9984 	EXP 	text_feedback: autoDraw = False
+428.9984 	EXP 	text_feedback: autoDraw = False
+428.9984 	EXP 	text_equation: height = np.float64(0.1)
+428.9984 	EXP 	text_equation: height = np.float64(0.1)
+428.9984 	EXP 	text_equation: height = np.float64(0.1)
+428.9984 	EXP 	text_equation: text = '24 - 14'
+428.9984 	EXP 	text_opt1: height = np.float64(0.05)
+428.9984 	EXP 	text_opt1: height = np.float64(0.05)
+428.9984 	EXP 	text_opt1: height = np.float64(0.05)
+428.9984 	EXP 	text_opt1: text = '1. 20'
+428.9984 	EXP 	text_opt2: height = np.float64(0.05)
+428.9984 	EXP 	text_opt2: height = np.float64(0.05)
+428.9984 	EXP 	text_opt2: height = np.float64(0.05)
+428.9984 	EXP 	text_opt2: text = '2. 10'
+428.9984 	EXP 	text_opt3: height = np.float64(0.05)
+428.9984 	EXP 	text_opt3: height = np.float64(0.05)
+428.9984 	EXP 	text_opt3: height = np.float64(0.05)
+428.9984 	EXP 	text_opt3: text = '3. 11'
+428.9984 	EXP 	text_equation: autoDraw = True
+428.9984 	EXP 	text_opt1: autoDraw = True
+428.9984 	EXP 	text_opt2: autoDraw = True
+428.9984 	EXP 	text_opt3: autoDraw = True
+431.1194 	EXP 	Device response: <KeyPress from None: t=431.118837099988, value=2, duration=None>
+431.1205 	DATA 	Keypress: 2
+431.1273 	EXP 	text_equation: autoDraw = False
+431.1273 	EXP 	text_opt1: autoDraw = False
+431.1273 	EXP 	text_opt2: autoDraw = False
+431.1273 	EXP 	text_opt3: autoDraw = False
+431.1273 	EXP 	text_2: autoDraw = True
+431.2860 	EXP 	Device response: <KeyPress from None: t=431.118837099988, value=2, duration=0.15960940020158887>
+433.1191 	EXP 	text_2: autoDraw = False
+433.1191 	EXP 	text_2: autoDraw = False
+433.1191 	EXP 	text_feedback: text = 'Correct!'
+433.1191 	EXP 	text_feedback: autoDraw = True
+436.1069 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'math_eq': '118 / 2', 'CorrAns': np.int64(59), 'dstr1': np.int64(55), 'dstr2': np.int64(57), 'CorrAns_key': np.int64(3), 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+436.1157 	EXP 	text_feedback: autoDraw = False
+436.1157 	EXP 	text_feedback: autoDraw = False
+436.1157 	EXP 	text_equation: height = np.float64(0.1)
+436.1157 	EXP 	text_equation: height = np.float64(0.1)
+436.1157 	EXP 	text_equation: height = np.float64(0.1)
+436.1157 	EXP 	text_equation: text = '118 / 2'
+436.1157 	EXP 	text_opt1: height = np.float64(0.05)
+436.1157 	EXP 	text_opt1: height = np.float64(0.05)
+436.1157 	EXP 	text_opt1: height = np.float64(0.05)
+436.1157 	EXP 	text_opt1: text = '1. 55'
+436.1157 	EXP 	text_opt2: height = np.float64(0.05)
+436.1157 	EXP 	text_opt2: height = np.float64(0.05)
+436.1157 	EXP 	text_opt2: height = np.float64(0.05)
+436.1157 	EXP 	text_opt2: text = '2. 57'
+436.1157 	EXP 	text_opt3: height = np.float64(0.05)
+436.1157 	EXP 	text_opt3: height = np.float64(0.05)
+436.1157 	EXP 	text_opt3: height = np.float64(0.05)
+436.1157 	EXP 	text_opt3: text = '3. 59'
+436.1157 	EXP 	text_equation: autoDraw = True
+436.1157 	EXP 	text_opt1: autoDraw = True
+436.1157 	EXP 	text_opt2: autoDraw = True
+436.1157 	EXP 	text_opt3: autoDraw = True
+438.3695 	EXP 	Device response: <KeyPress from None: t=438.36687930021435, value=3, duration=None>
+438.3705 	DATA 	Keypress: 3
+438.3776 	EXP 	text_equation: autoDraw = False
+438.3776 	EXP 	text_opt1: autoDraw = False
+438.3776 	EXP 	text_opt2: autoDraw = False
+438.3776 	EXP 	text_opt3: autoDraw = False
+438.3776 	EXP 	text_2: autoDraw = True
+438.5278 	EXP 	Device response: <KeyPress from None: t=438.36687930021435, value=3, duration=0.15952339977957308>
+440.3695 	EXP 	text_2: autoDraw = False
+440.3695 	EXP 	text_2: autoDraw = False
+440.3695 	EXP 	text_feedback: text = 'Correct!'
+440.3695 	EXP 	text_feedback: autoDraw = True
+443.3569 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'math_eq': '14 * 2', 'CorrAns': np.int64(28), 'dstr1': np.int64(38), 'dstr2': np.int64(16), 'CorrAns_key': np.int64(1), 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+443.3653 	EXP 	text_feedback: autoDraw = False
+443.3653 	EXP 	text_feedback: autoDraw = False
+443.3653 	EXP 	text_equation: height = np.float64(0.1)
+443.3653 	EXP 	text_equation: height = np.float64(0.1)
+443.3653 	EXP 	text_equation: height = np.float64(0.1)
+443.3653 	EXP 	text_equation: text = '14 * 2'
+443.3653 	EXP 	text_opt1: height = np.float64(0.05)
+443.3653 	EXP 	text_opt1: height = np.float64(0.05)
+443.3653 	EXP 	text_opt1: height = np.float64(0.05)
+443.3653 	EXP 	text_opt1: text = '1. 28'
+443.3653 	EXP 	text_opt2: height = np.float64(0.05)
+443.3653 	EXP 	text_opt2: height = np.float64(0.05)
+443.3653 	EXP 	text_opt2: height = np.float64(0.05)
+443.3653 	EXP 	text_opt2: text = '2. 38'
+443.3653 	EXP 	text_opt3: height = np.float64(0.05)
+443.3653 	EXP 	text_opt3: height = np.float64(0.05)
+443.3653 	EXP 	text_opt3: height = np.float64(0.05)
+443.3653 	EXP 	text_opt3: text = '3. 16'
+443.3653 	EXP 	text_equation: autoDraw = True
+443.3653 	EXP 	text_opt1: autoDraw = True
+443.3653 	EXP 	text_opt2: autoDraw = True
+443.3653 	EXP 	text_opt3: autoDraw = True
+444.7365 	EXP 	Device response: <KeyPress from None: t=444.7349610000383, value=1, duration=None>
+444.7375 	DATA 	Keypress: 1
+444.7445 	EXP 	text_equation: autoDraw = False
+444.7445 	EXP 	text_opt1: autoDraw = False
+444.7445 	EXP 	text_opt2: autoDraw = False
+444.7445 	EXP 	text_opt3: autoDraw = False
+444.7445 	EXP 	text_2: autoDraw = True
+444.8698 	EXP 	Device response: <KeyPress from None: t=444.7349610000383, value=1, duration=0.12760140001773834>
+446.7359 	EXP 	text_2: autoDraw = False
+446.7359 	EXP 	text_2: autoDraw = False
+446.7359 	EXP 	text_feedback: text = 'Correct!'
+446.7359 	EXP 	text_feedback: autoDraw = True
+449.7241 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'math_eq': '23 * 4', 'CorrAns': np.int64(92), 'dstr1': np.int64(82), 'dstr2': np.int64(87), 'CorrAns_key': np.int64(3), 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+449.7328 	EXP 	text_feedback: autoDraw = False
+449.7328 	EXP 	text_feedback: autoDraw = False
+449.7328 	EXP 	text_equation: height = np.float64(0.1)
+449.7328 	EXP 	text_equation: height = np.float64(0.1)
+449.7328 	EXP 	text_equation: height = np.float64(0.1)
+449.7328 	EXP 	text_equation: text = '23 * 4'
+449.7328 	EXP 	text_opt1: height = np.float64(0.05)
+449.7328 	EXP 	text_opt1: height = np.float64(0.05)
+449.7328 	EXP 	text_opt1: height = np.float64(0.05)
+449.7328 	EXP 	text_opt1: text = '1. 82'
+449.7328 	EXP 	text_opt2: height = np.float64(0.05)
+449.7328 	EXP 	text_opt2: height = np.float64(0.05)
+449.7328 	EXP 	text_opt2: height = np.float64(0.05)
+449.7328 	EXP 	text_opt2: text = '2. 87'
+449.7328 	EXP 	text_opt3: height = np.float64(0.05)
+449.7328 	EXP 	text_opt3: height = np.float64(0.05)
+449.7328 	EXP 	text_opt3: height = np.float64(0.05)
+449.7328 	EXP 	text_opt3: text = '3. 92'
+449.7328 	EXP 	text_equation: autoDraw = True
+449.7328 	EXP 	text_opt1: autoDraw = True
+449.7328 	EXP 	text_opt2: autoDraw = True
+449.7328 	EXP 	text_opt3: autoDraw = True
+455.0707 	DATA 	Keypress: 1
+455.0785 	EXP 	Device response: <KeyPress from None: t=455.0701024001464, value=1, duration=None>
+455.0861 	EXP 	text_equation: autoDraw = False
+455.0861 	EXP 	text_opt1: autoDraw = False
+455.0861 	EXP 	text_opt2: autoDraw = False
+455.0861 	EXP 	text_opt3: autoDraw = False
+455.0861 	EXP 	text_2: autoDraw = True
+455.1865 	EXP 	Device response: <KeyPress from None: t=455.0701024001464, value=1, duration=0.11237909994088113>
+457.0778 	EXP 	text_2: autoDraw = False
+457.0778 	EXP 	text_2: autoDraw = False
+457.0778 	EXP 	text_feedback: height = np.float64(0.05)
+457.0778 	EXP 	text_feedback: height = np.float64(0.05)
+457.0778 	EXP 	text_feedback: height = np.float64(0.05)
+457.0778 	EXP 	text_feedback: text = 'Incorrect!'
+457.0778 	EXP 	text_feedback: autoDraw = True
+460.0657 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'math_eq': '25 + 19', 'CorrAns': np.int64(44), 'dstr1': np.int64(53), 'dstr2': np.int64(38), 'CorrAns_key': np.int64(1), 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+460.0747 	EXP 	text_feedback: autoDraw = False
+460.0747 	EXP 	text_feedback: autoDraw = False
+460.0747 	EXP 	text_equation: height = np.float64(0.1)
+460.0747 	EXP 	text_equation: height = np.float64(0.1)
+460.0747 	EXP 	text_equation: height = np.float64(0.1)
+460.0747 	EXP 	text_equation: text = '25 + 19'
+460.0747 	EXP 	text_opt1: height = np.float64(0.05)
+460.0747 	EXP 	text_opt1: height = np.float64(0.05)
+460.0747 	EXP 	text_opt1: height = np.float64(0.05)
+460.0747 	EXP 	text_opt1: text = '1. 44'
+460.0747 	EXP 	text_opt2: height = np.float64(0.05)
+460.0747 	EXP 	text_opt2: height = np.float64(0.05)
+460.0747 	EXP 	text_opt2: height = np.float64(0.05)
+460.0747 	EXP 	text_opt2: text = '2. 53'
+460.0747 	EXP 	text_opt3: height = np.float64(0.05)
+460.0747 	EXP 	text_opt3: height = np.float64(0.05)
+460.0747 	EXP 	text_opt3: height = np.float64(0.05)
+460.0747 	EXP 	text_opt3: text = '3. 38'
+460.0747 	EXP 	text_equation: autoDraw = True
+460.0747 	EXP 	text_opt1: autoDraw = True
+460.0747 	EXP 	text_opt2: autoDraw = True
+460.0747 	EXP 	text_opt3: autoDraw = True
+463.6366 	EXP 	Device response: <KeyPress from None: t=463.6308420000132, value=1, duration=None>
+463.6376 	DATA 	Keypress: 1
+463.6446 	EXP 	text_equation: autoDraw = False
+463.6446 	EXP 	text_opt1: autoDraw = False
+463.6446 	EXP 	text_opt2: autoDraw = False
+463.6446 	EXP 	text_opt3: autoDraw = False
+463.6446 	EXP 	text_2: autoDraw = True
+463.7952 	EXP 	Device response: <KeyPress from None: t=463.6308420000132, value=1, duration=0.15951670007780194>
+465.6362 	EXP 	text_2: autoDraw = False
+465.6362 	EXP 	text_2: autoDraw = False
+465.6362 	EXP 	text_feedback: height = np.float64(0.05)
+465.6362 	EXP 	text_feedback: height = np.float64(0.05)
+465.6362 	EXP 	text_feedback: height = np.float64(0.05)
+465.6362 	EXP 	text_feedback: text = 'Correct!'
+465.6362 	EXP 	text_feedback: autoDraw = True
+468.6206 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+468.6279 	EXP 	text_feedback: autoDraw = False
+468.6279 	EXP 	text_feedback: autoDraw = False
+468.6279 	EXP 	text: autoDraw = True
+478.6198 	EXP 	text: autoDraw = False
+478.6198 	EXP 	text: autoDraw = False
+478.6198 	EXP 	text_q1: autoDraw = True
+489.2042 	EXP 	Device response: <KeyPress from None: t=489.19869079999626, value=3, duration=None>
+489.2058 	DATA 	Keypress: 3
+489.2118 	EXP 	text_q1: autoDraw = False
+489.2118 	EXP 	text_endscreen: autoDraw = True
+489.2709 	EXP 	Device response: <KeyPress from None: t=489.19869079999626, value=3, duration=0.06412470014765859>
+504.2039 	EXP 	text_endscreen: autoDraw = False
+504.2039 	EXP 	text_endscreen: autoDraw = False
+504.2040 	EXP 	arithmetic_task: status = STOPPED
